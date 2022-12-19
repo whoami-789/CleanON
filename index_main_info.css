@@ -1,6 +1,6 @@
 .main_info {
-    margin-top: 30px;
     background-color: #f5f7fa;
+    display: inline-block;
 }
 
 .main_info_tiles {
@@ -90,41 +90,40 @@
 }
 
 .cleaning_text2 {
-    width: 620px;
+    width: 580px;
     font-size: 16px;
     font-family: Minsans;
     text-align: left;
     color: #00022799;
 }
 
-.main_info_block{
+.main_info_block {
     display: inline-block;
+    margin-bottom: 20px;
 }
 
-.text{
+.text {
     margin-right: 70px;
 }
 
 .tiles_text1 {
+    width: 314px;
     font-size: 20px;
     font-family: Eastman;
-    float: left;
     color: #000227;
-    margin-top: 30px;
-    margin-left: 25px;
     text-align: left;
 }
 
 .tiles_text2 {
+    width: 377px;
     font-size: 16px;
     font-family: Minsans;
     color: #00022799;
-    float: left;
-    margin-top: 5px;
     text-align: left;
-    margin-left: 25px;
+    margin-top: -15px;
 }
 
-.tiles_text{
-    display: inline-block;
+.tiles_text {
+    float: left;
+    margin-left: 25px;
 }
