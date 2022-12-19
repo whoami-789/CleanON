@@ -1,0 +1,58 @@
+@import url(fonts.css);
+
+.review_block {
+    background-color: #FFF;
+    width: 553px;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+}
+.review_header {
+    color: #000227;
+    font-family: Eastman;
+    font-size: 32px;
+    margin-top: 0px;
+}
+.review_name {
+    color: #000227;
+    font-family: Eastman;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.review_service {
+    color: #000227;
+    font-family: Minsans;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.review_short {
+    color: #000227;
+    font-family: Minsans_bold;
+    font-size: 16px;
+}
+.review_long {
+    color: #000227;
+    font-family: Minsans;
+    font-size: 14px;
+}
+.review_more {
+    color: #000227;
+    font-family: Minsans;
+    font-size: 16px;
+    border-bottom: 2px dotted #000227;
+}
+.review_more_width {
+    width: max-content;
+    display: inline-block;
+    margin-top: 30px;
+}
+.review_center {
+    text-align: center;
+}

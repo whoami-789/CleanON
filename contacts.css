@@ -1,0 +1,78 @@
+@import url(fonts.css);
+
+.contacts_header {
+    color: #000227;
+    margin-left: 0px;
+    font-family: Eastman;
+    font-size: 32px;
+    margin-top: 30px;
+}
+.contacts_info {
+    background-color: #FFF;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 15px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    margin-top: 0px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.contacts_info > div {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contacts_info_block > div {
+    display: inline-block;
+    margin-left: 0px;
+}
+.contacts_lite {
+    color: #0002273C;
+    font-family: TTNormsPro;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.contacts_hard {
+    color: #000227;
+    font-family: Eastman;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.contacts_phone {
+    width: 44;
+    height: 44;
+    background-image: url(assets/contacts_phone.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    display: inline-block;
+    margin-right: 3px;
+}
+.contacts_mail {
+    width: 44;
+    height: 44;
+    background-image: url(assets/contacts_mail.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    display: inline-block;
+    margin-right: 3px;
+}
+.contacts_whatsapp {
+    width: 44;
+    height: 44;
+    background-image: url(assets/contacts_whatsapp.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    display: inline-block;
+    margin-right: 3px;
+}
+.contacts_address {
+    width: 44;
+    height: 44;
+    background-image: url(assets/contacts_address.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    display: inline-block;
+    margin-right: 3px;
+}

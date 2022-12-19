@@ -1,0 +1,124 @@
+@import url(fonts.css);
+
+.block_slider {
+    width: 1170px;
+}
+
+ .itc-slider {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .itc-slider__wrapper {
+    overflow: hidden;
+  }
+  
+  .itc-slider__items {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+  }
+  
+  .itc-slider__transition-none {
+    transition: none;
+  }
+  
+  .itc-slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    user-select: none;
+    will-change: transform;
+    width: 370px;
+    height: 218px;
+    
+  }
+
+  .itc-slider__item > div > * {
+    border-radius: 20px;
+    width: 370px;
+    height: 218px;
+  }
+  
+  /* кнопки влево и вправо */
+  .itc-slider__btn {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    border-radius: 52px;
+    border: 0px;
+  }
+  
+  .itc-slider__btn_hide {
+    display: none;
+  }
+  
+  .itc-slider__btn_prev {
+    left: -66;
+    background-image: url(assets/prev.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  .itc-slider__btn_next {
+    right: -66;
+    background-image: url(assets/next.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  .itc-slider__btn:hover,
+  .itc-slider__btn:focus {
+
+  }
+  
+  .itc-slider__btn::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    
+  }
+  
+  .itc-slider__btn_prev::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+  
+  .itc-slider__btn_next::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+  
+  /* индикаторы */
+  .itc-slider__indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    margin: 0 15%;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  *,
+    *::before,
+    *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .itc-slider__item {
+      flex: 0 0% 33.3333333333%;
+      max-width: 33.3333333333%;
+      margin-right: 2px;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }

@@ -1,0 +1,9 @@
+body {
+    width: 100%;
+    background: #F5F7FA;
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+	background-size:cover;
+    position: absolute;
+    margin: 0px;
+}

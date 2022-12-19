@@ -1,0 +1,154 @@
+@import url(fonts.css);
+
+.footer { 
+	background: #E8ECF2;
+}
+.footer_content {
+	width: 289px;
+	font-family: Minsans;
+	text-align: left;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 27px;
+	margin-bottom: 20px;
+}
+.footer_content > a {
+	text-decoration: none;
+	color: #000227;
+}
+.footer_content > a {
+	text-decoration: none;
+	color: #000227;
+}
+.footer_content > a:hover {
+	text-decoration: none;
+	color: #0002273C;
+}
+.footer_block_height {
+	height: 375;
+}
+.footer_content_header {
+	font-family:Minsans_bold;
+	font-size: 16px;
+	height: 20px;
+}
+.footer_info_margin {
+	margin-top: 20px;
+}
+.footer_phone {
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+.footer_mail {
+	color: rgba(0, 2.0000138925388455, 39.00000147521496, 0.6000000238418579);
+	font-size: 13px;
+	margin-top: 0px;
+}
+.footer_whatsapp { 
+	width: 27px;
+	height: 27px;
+	background-image: url(assets/whatsapp.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+.footer_telegram { 
+	width: 27px;
+	height: 27px;
+	background-image: url(assets/telegram.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+.footer_wallet { 
+	width: 45px;
+	height: 45px;
+	background-image: url(assets/wallet.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+.footer_credit_card { 
+	width: 45px;
+	height: 45px;
+	background-image: url(assets/credit_card.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+.footer_bank_account { 
+	width: 45px;
+	height: 45px;
+	background-image: url(assets/bank_account.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+.footer_address {
+	color: rgba(0, 2.0000138925388455, 39.00000147521496, 0.6000000238418579);
+}
+.footer_logo_service {
+	width: 39px;
+	height: 37px;
+	background-image: url(assets/logo_service.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer_width {
+	width: 269px;
+}
+.footer_inline {
+	display: inline-block;
+}
+.footer_clean {
+	color: #000227;
+	font-family: Eastman_bold;
+	font-size: 19.358110427856445px;
+	margin-bottom: 0px;
+}
+.footer_service {
+	color: rgba(255, 102.00000151991844, 0, 1);
+	font-family: TTNormsPro;
+	font-size: 11.333333015441895px;
+	margin-top: 0px;
+}
+.footer_doc {
+	font-size: 12px;
+}
+.footer_company_name { 
+	color: rgba(108.00000116229057, 117.00000062584877, 155.00000596046448, 1);
+	font-family: Raleway;
+	font-size: 11px;
+	line-height: 5px;
+	text-align: left;
+}
+.footer_logo_company { 
+	width: 30.923826217651367px;
+	height: 30.999998092651367px;
+	background-image: url(assets/logo_company.JPG);
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.footer_vertical_align {
+	vertical-align: middle;
+}
+.footer_company {
+	margin-top: 35px;
+	width: 350px;
+	text-align: right;
+}
+.footer_align_center {
+	text-align: center;
+}
+.footer_line {
+	width: 1170px;
+	color: #B7BBC7;
+	margin-bottom: 0px;
+}
+.footer_dotted {
+	border-bottom: 2px dotted #000227;
+	width: max-content;
+}

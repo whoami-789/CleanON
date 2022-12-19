@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+}
+.block {
+    text-align: left;
+    display: inline-block;
+} 
+.block_width {
+    width: 1170px;
+}
