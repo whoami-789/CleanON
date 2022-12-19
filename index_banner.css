@@ -3,6 +3,7 @@ body {
     width: 100%;
     background: #F5F7FA;
     position: absolute;
+    margin: 0px;
     background-image: url(assets/index_banner.png);
 	background-repeat: no-repeat;
 	background-size: cover;

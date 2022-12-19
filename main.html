@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index_body.css">
+    <link rel="stylesheet" href="index_banner.css">
     <link rel="stylesheet" href="index_main_info.css">
     <link rel="stylesheet" href="index_calc.css">
 </head>
@@ -60,68 +61,69 @@
         </div>
     </div>
 
-
-
-
     <div class="calc">
-        <div>
+        <div class="calc_block_header">
             <p class="calc_head_text">Воспользуйтесь калькулятором, чтобы узнать стоимость вашей уборки</p>
         </div>
 
-        <div class="calc_rect">
-            <table class="calc_margin">
-                <tr>
-                    <td class="calc_types">1. Тип помещения:</td>
-                    <td class="calc_types">2. Вид уборки</td>
-                    <td class="calc_types">3. Площадь помещения</td>
-                </tr>
-                <tr>
-                    <td><select name="scape_type" required>
-                            <option value="Flat">Квартира</option>
-                            <option value="Office">Офис</option>
-                            <option value="House">Дом</option>
-                        </select></td>
-                    <td><select name="clean_type" required>
-                            <option value="#">Генеральная</option>
-                            <option value="#">Влажная</option>
-                            <option value="#"></option>
-                            <option value="#"></option>
-                            <option value="#"></option>
-                        </select></td>
-                    <td><input type="range" name="" id="" min="10" max="100"></td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox" id="MKAD">
-                        <label for="MKAD">Выезд за МКАД</label>
-                    </td>
-                    <td><input type="checkbox" id="curtain">
-                        <label for="curtain">Шторы</label>
-                    </td>
-                    <td><input type="checkbox" id="light">
-                        <label for="light">Осветительные приборы</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" id="window">
-                        <label for="window">Мытье окон</label>
-                    </td>
-                    <td><input type="checkbox" id="ironing">
-                        <label for="ironing">Глажка</label>
-                    </td>
-                    <td><input type="checkbox" id="tech">
-                        <label for="tech">Бытовая техника</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" id="cleaner">
-                        <label for="cleaner">Химчистка мебели</label>
-                    </td>
-                    <td><input type="checkbox" id="shower">
-                        <label for="shower">Душевая кабина/Джакузи</label>
-                    </td>
-                </tr>
-            </table>
+        <div class="calc_block_rect">
+            <div class="calc_margin">
+                <p class="calc_types1">1. Тип помещения:</p>
+                <p class="calc_types2">2. Вид уборки</p>
+                <p class="calc_types3">3. Площадь помещения</p>
+            </div>
+            <div class="select_type_block">
+                <select name="scape_type" required class="scape_type">
+                    <option value="Flat">Квартира</option>
+                    <option value="Office">Офис</option>
+                    <option value="House">Дом</option>
+                </select>
+                <select name="clean_type" required class="clean_type">
+                    <option value="#">Генеральная</option>
+                    <option value="#">Влажная</option>
+                </select>
+                <div class="select_metr">
+                    <div class="select_metr_text">
+                        <p class="m10">10м2</p>
+                        <p class="m100">100м2</p>
+                    </div>
+                    <input type="range" name="" id="" min="10" max="100" class="metr">
+                </div>
+            </div>
+            <div class="checkbox_block">
+                <div>
+                    <input type="checkbox" id="MKAD">
+                    <label for="MKAD">Выезд за МКАД</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="curtain">
+                    <label for="curtain">Шторы</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="light">
+                    <label for="light">Осветительные приборы</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="window">
+                    <label for="window">Мытье окон</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="ironing">
+                    <label for="ironing">Глажка</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="tech">
+                    <label for="tech">Бытовая техника</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="cleaner">
+                    <label for="cleaner">Химчистка мебели</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="shower">
+                    <label for="shower">Душевая кабина/Джакузи</label>
+                </div>
+            </div>
         </div>
     </div>
 

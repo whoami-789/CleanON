@@ -9,15 +9,6 @@
     margin-top: 12%;
 }
 
-.calc {
-    display: inline-block;
-    background-color: #f5f7fa;
-    margin-top: 5%;
-    position: relative;
-    text-align: center;
-}
-
-
 .service_text {
     font-family: Eastman;
     font-weight: 400;
@@ -287,40 +278,6 @@
     border-style: solid;
     font-family: Eastman;
     font-size: 14px;
-}
-
-
-
-
-
-
-.calc_head_text {
-    width: 750px;
-    font-size: 32px;
-    font-family: Eastman;
-    color: #000227;
-    text-align: center;
-}
-
-.calc_rect {
-    width: 1170px;
-    height: 500px;
-    background-color: #ffff;
-    display: inline-block;
-    border-radius: 20px;
-}
-
-.calc_types {
-    font-size: 18px;
-    font-family: Eastman;
-    color: #000227;
-    text-align: left;
-    word-wrap: normal;
-}
-
-.calc_margin {
-    border-spacing: 215px 35px;
-    width: 1070px;
 }
 
 .scape_type {
