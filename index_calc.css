@@ -51,7 +51,7 @@
     display: inline-flex;
 }
 
-.select_metr{
+.select_metr {
     display: inline-block;
     float: right;
     margin-right: 20px;
@@ -59,30 +59,64 @@
     margin-top: -10px;
 }
 
-.metr{
+.metr {
     margin-top: -50px;
-    
+
 }
 
 
-.m10{
+.m10 {
     float: left;
     font-size: 12px;
 }
 
-.m100{
+.m100 {
     float: right;
     font-size: 12px;
 }
 
-.clean_type{
+.clean_type {
     align-items: center;
     font-size: 18px;
 
 }
 
-.scape_type{
+.scape_type {
     font-size: 18px;
     float: left;
     margin-left: 100px;
+}
+
+.checkbox_block {
+    margin-top: 30px;
+    font-family: Minsans;
+}
+
+.check_block1 {
+    float: left;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.check_block3 {
+    float: right;
+    font-size: 16px;
+}
+
+.check_block2{  
+    display: inline-block;
+    font-size: 16px;
+    font-family: Minsans;
+}
+
+.select_type_block{
+    margin-top: 25px;
+}
+
+.check_mkad{
+    margin-left: 28px;
+}
+
+.check_cleaner{
+    margin-left: 55px;
 }
