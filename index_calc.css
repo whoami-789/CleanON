@@ -26,7 +26,7 @@
     font-family: Eastman;
     color: #000227;
     float: left;
-    margin-left: 25px;
+    margin-left: 15px;
     text-align: left;
     margin-right: 200px;
 }
@@ -35,7 +35,7 @@
     font-size: 18px;
     font-family: Eastman;
     color: #000227;
-    margin-left: 100px;
+    margin-left: 7px;
     margin-right: 50PX;
 }
 
@@ -45,10 +45,12 @@
     color: #000227;
     float: right;
     margin-left: 200px;
+    margin-right: 70px;
 }
 
 .calc_margin {
     display: inline-flex;
+    margin-top: 20px;
 }
 
 .select_metr {
@@ -78,14 +80,25 @@
 .clean_type {
     align-items: center;
     font-size: 18px;
-
+    margin-right: 170px;
 }
 
 .scape_type {
     font-size: 18px;
     float: left;
-    margin-left: 100px;
+    margin-left: 50px;
 }
+
+select {
+    border-radius: 30px;
+    border: 1px #b7bbc7 solid;
+    padding-right: 180px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 
 .checkbox_block {
     margin-top: 30px;
@@ -94,29 +107,59 @@
 
 .check_block1 {
     float: left;
-    margin: 5px;
     font-size: 16px;
+    margin-top: 17px;
 }
 
 .check_block3 {
     float: right;
     font-size: 16px;
+    margin-right: 115px;
 }
 
-.check_block2{  
+.check_block2 {
     display: inline-block;
     font-size: 16px;
-    font-family: Minsans;
+    margin-right: 110px;
 }
 
-.select_type_block{
+.select_type_block {
     margin-top: 25px;
 }
 
-.check_mkad{
+.check_mkad {
     margin-left: 28px;
 }
 
-.check_cleaner{
+.check_window {
+    margin-top: 15px;
+}
+
+.check_cleaner {
     margin-left: 55px;
+    margin-top: 15px;
+}
+
+.check_curtain {
+    margin-top: 15px;
+
+}
+
+.check_ironing {
+    margin-top: 15px;
+
+}
+
+.check_shower {
+    margin-top: 15px;
+    margin-left: 155px;
+}
+
+.check_light {
+    margin-top: 15px;
+}
+
+.check_tech {
+    margin-top: 15px;
+    margin-right: 65px;
 }
