@@ -101,7 +101,6 @@ select {
 
 
 .checkbox_block {
-    margin-top: 30px;
     font-family: Minsans;
 }
 
@@ -262,4 +261,44 @@ input[type="range"]::-webkit-slider-thumb {
     height: 15px;
     width: 15px;
     border-radius: 50%;
+}
+
+.calc_img{
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/calc.png);
+}
+
+.calc_block_footer{
+    margin-left: 45px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+
+.computation{
+    width: 315px;
+    font-family: Minsans;
+    font-size: 13px;
+    color: #a8a9b6;
+    margin-top: -15px;
+}
+
+.calc_price{
+    width: 140px;
+    font-size: 32px;
+    font-family: Eastman;
+}
+
+.calc_cleaning{
+    width: 255px;
+    font-size: 18px;
+    font-family: TTNormsPro;
+    margin-bottom: -30px;
+}
+
+.calc_block_price{
+    text-align: left;
+    display: flexbox;
+    margin-left: 150px;
+    margin-top: -110px;
 }
