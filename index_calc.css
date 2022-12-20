@@ -58,7 +58,7 @@
     float: right;
     margin-right: 20px;
     font-family: Minsans;
-    margin-top: -10px;
+    margin-top: -65px;
 }
 
 .metr {
@@ -80,7 +80,7 @@
 .clean_type {
     align-items: center;
     font-size: 18px;
-    margin-right: 170px;
+    margin-right: 330px;
 }
 
 .scape_type {
@@ -115,6 +115,7 @@ select {
     float: right;
     font-size: 16px;
     margin-right: 115px;
+    margin-top: -10px;
 }
 
 .check_block2 {
@@ -173,27 +174,33 @@ select {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  .checkbox.style-c input {
+}
+
+.checkbox.style-c input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
-  }
-  .checkbox.style-c input:checked ~ .checkbox__checkmark {
+}
+
+.checkbox.style-c input:checked~.checkbox__checkmark {
     background-color: #00bbfc;
-  }
-  .checkbox.style-c input:checked ~ .checkbox__checkmark:after {
+}
+
+.checkbox.style-c input:checked~.checkbox__checkmark:after {
     opacity: 1;
-  }
-  .checkbox.style-c:hover input ~ .checkbox__checkmark {
+}
+
+.checkbox.style-c:hover input~.checkbox__checkmark {
     background-color: #eee;
-  }
-  .checkbox.style-c:hover input:checked ~ .checkbox__checkmark {
+}
+
+.checkbox.style-c:hover input:checked~.checkbox__checkmark {
     background-color: #00bbfc;
-  }
-  .checkbox.style-c .checkbox__checkmark {
+}
+
+.checkbox.style-c .checkbox__checkmark {
     position: absolute;
     top: 2px;
     left: 0;
@@ -202,8 +209,9 @@ select {
     background-color: #eee;
     transition: background-color 0.25s ease;
     border-radius: 4px;
-  }
-  .checkbox.style-c .checkbox__checkmark:after {
+}
+
+.checkbox.style-c .checkbox__checkmark:after {
     content: "";
     position: absolute;
     left: 8px;
@@ -215,9 +223,43 @@ select {
     transform: rotate(45deg);
     opacity: 0;
     transition: opacity 0.25s ease;
-  }
-  .checkbox.style-c .checkbox__body {
+}
+
+.checkbox.style-c .checkbox__body {
     color: #333;
     line-height: 1.4;
     font-size: 16px;
-  }
+}
+
+.select_metr input {
+    width: 320px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/***** Chrome, Safari, Opera и Edge Chromium *****/
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #e8ecf2;
+    height: 3px;
+}
+
+/******** Firefox ********/
+input[type="range"]::-moz-range-track {
+    background: #e8ecf2;
+    height: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -6px;
+    background-color: #5cd5eb;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
