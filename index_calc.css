@@ -263,19 +263,19 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 50%;
 }
 
-.calc_img{
+.calc_img {
     width: 100px;
     height: 100px;
     background-image: url(assets/calc.png);
 }
 
-.calc_block_footer{
+.calc_block_footer {
     margin-left: 45px;
     margin-bottom: 70px;
     margin-top: 60px;
 }
 
-.computation{
+.computation {
     width: 315px;
     font-family: Minsans;
     font-size: 13px;
@@ -283,22 +283,82 @@ input[type="range"]::-webkit-slider-thumb {
     margin-top: -15px;
 }
 
-.calc_price{
+.calc_price {
     width: 140px;
     font-size: 32px;
     font-family: Eastman;
 }
 
-.calc_cleaning{
+.calc_cleaning {
     width: 255px;
     font-size: 18px;
     font-family: TTNormsPro;
     margin-bottom: -30px;
 }
 
-.calc_block_price{
+.calc_block_price {
     text-align: left;
     display: flexbox;
     margin-left: 150px;
     margin-top: -110px;
+}
+
+.checkbox__body_agree {
+    font-size: 11px;
+    font-family: Minsans;
+    margin-top: 5px;
+    text-align: left;
+    display: flex;
+}
+
+.calc_agree {
+    color: #00bbfc;
+    margin-left: 4px;
+}
+
+.calc_input_button_block {
+    margin-left: 540px;
+    margin-top: -185px;
+}
+
+.calc_number_input_block {
+    display: inline-block;
+}
+
+.checkbox_calc_number {
+    margin-top: 10px;
+}
+
+.calc_input_number {
+    border-radius: 50px;
+    border: 0px #b7bbc7 solid;
+    padding-right: 70px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #e8ecf2;
+    margin-left: -60px;
+    text-align: center;
+    font-family: Minsans;
+}
+
+.calc_cleaning_button {
+    float: right;
+    margin-right: 100px;
+}
+
+.calc_input_button{
+    border-radius: 50px;
+    border: 0px #01b9fc solid;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #01b9fc;
+    margin-left: -60px;
+    margin-top: -1px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Eastman;
+    color: #fff;
 }
