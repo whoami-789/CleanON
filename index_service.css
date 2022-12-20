@@ -1,5 +1,3 @@
-@import url(fonts.css);
-
 .main_service {
     display: inline-block;
     background-color: #ffff;
@@ -18,6 +16,10 @@
     color: #000227;
 }
 
+.service_block {
+    display: flexbox;
+}
+
 .rect {
     background: #f5f7fa;
     display: inline-block;
@@ -27,6 +29,23 @@
     margin-left: 20px;
     padding: 15px;
     position: relative;
+}
+
+.rect_text {
+    display: inline-block;
+    text-align: left;
+    margin-left: -250px;
+}
+
+.rect_text_small {
+    display: inline-block;
+    text-align: left;
+    margin-left: -150px;
+}
+
+.service_time_person {
+    display: flex;
+    margin-top: 5px;
 }
 
 .rect1 {
@@ -50,7 +69,7 @@
     height: 200px;
 }
 
-.rect_text {
+.rect_header {
     color: #000227;
     font-family: Eastman;
     font-size: 22px;
@@ -92,13 +111,8 @@
     font-family: Minsans;
 }
 
-.service_table {
-    float: left;
-    margin-left: 4%;
-}
-
 .price_table {
-    margin-top: 22%;
+    margin-top: 50px;
 }
 
 .price {
@@ -121,8 +135,66 @@
     text-align: left;
 }
 
-.price_table1 {
-    margin-top: 22%;
+.view_more_small {
+    padding-right: 90px;
+    padding-left: 90px;
+    float: right;
+    font-size: 14px;
+    font-family: Eastman;
+    border: 2px #00bbfc;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.arrow {
+    float: right;
+    margin-right: -70%;
+    margin-top: 7%;
+    width: 22px;
+    height: 22px;
+    background-image: url(assets/arrow.png);
+    background-repeat: no-repeat;
+}
+
+.arrow_small {
+    float: right;
+    margin-right: -40%;
+    margin-top: 7%;
+    width: 22px;
+    height: 22px;
+    background-image: url(assets/arrow.png);
+    background-repeat: no-repeat;
+}
+
+.person_img {
+    float: right;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    background-image: url(assets/people.png);
+    background-repeat: no-repeat;
+}
+
+.round_img {
+    float: left;
+    top: 28px;
+    left: 28px;
+    border-radius: 100px;
+}
+
+.view_more_text {
+    float: left;
+    padding: 15px;
+    margin-left: -55%;
+    margin-bottom: 1%;
+}
+
+.view_more_text_small {
+    float: left;
+    padding: 15px;
+    margin-left: -40%;
+    margin-bottom: 1%;
 }
 
 .price1 {
@@ -156,52 +228,32 @@
 }
 
 .time_img {
-    margin-bottom: 2px;
     width: 17px;
     height: 17px;
+    margin-right: 5px;
     background-image: url(assets/clock.png);
     float: right;
     background-repeat: no-repeat;
 }
 
-.view_more_text {
+.price {
     float: left;
-    padding: 15px;
-    margin-left: -55%;
-    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-family: Eastman;
+    font-size: 18px;
 }
 
-.view_more_text1 {
-    float: left;
-    padding: 15px;
-    margin-left: -30%;
-    margin-bottom: 1%;
-}
-
-.arrow {
+.view_more {
+    padding-right: 150px;
+    padding-left: 120px;
     float: right;
-    margin-right: -70%;
-    margin-top: 7%;
-    width: 22px;
-    height: 22px;
-    background-image: url(assets/arrow.png);
-    background-repeat: no-repeat;
-}
-
-.person_img {
-    margin-bottom: 3px;
-    float: right;
-    width: 17px;
-    height: 17px;
-    background-image: url(assets/people.png);
-    background-repeat: no-repeat;
-}
-
-.round_img {
-    float: left;
-    top: 28px;
-    left: 28px;
-    border-radius: 100px;
+    font-size: 14px;
+    font-family: Eastman;
+    border: 2px #00bbfc;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: left;
 }
 
 .img1 {
