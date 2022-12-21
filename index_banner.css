@@ -1,9 +1,5 @@
 @import url(fonts.css);
 body {
-    width: 100%;
-    background: #F5F7FA;
-    position: absolute;
-    margin: 0px;
     background-image: url(assets/index_banner.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -20,6 +16,7 @@ body {
     vertical-align: middle;
     left: 540px;
     top: 170px;
+    display: inline-block;
 }
 .ib_header {
     color: #000227;
