@@ -1,5 +1,14 @@
 body {
-    width: 1080px;
+    width: 100%;
+    background: #F5F7FA;
     margin: 0px;
-    text-align: center;
+    align-items: center;
+    position: absolute;
+}
+
+.text_header {
+    color: #000227;
+    font-family: Eastman;
+    font-size: 32px;
+    margin-top: 70px;
 }

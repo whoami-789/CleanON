@@ -1,0 +1,49 @@
+@import url(fonts.css);
+
+.cleaner_block {
+    width: 270px;
+    height: 251px;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin: 9px;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    display: inline-block;
+}
+.cleaner_name_block {
+ margin-top: 20px;
+}
+.cleaner_photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-image: url(assets/img.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+    display: inline-block;
+}
+.cleaner_name {
+    color: #000227;
+    font-family: Eastman;
+    font-size: 18px;
+    margin-top: 35px;
+}
+.cleaner_workage_block {
+    width: 70px;
+    height: 30px;
+    border-radius: 52px;
+    padding: -9px;
+    background-color: #25A3E0;
+    position: relative;
+    display: inline-block;
+    right: -40px;
+    top: 110px;
+}
+.cleaner_workage {
+    color: #FFF;
+    font-family: TTNormsPro_bold;
+    font-size: 16px;
+    margin-top: 5px;
+}

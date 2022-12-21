@@ -1,0 +1,68 @@
+.accordion_blocks {
+    width: 670px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 84px;
+    margin-bottom: 50px;
+}
+.accordion_block {
+    background-color: #E8ECF2;
+    width: 670px;
+    margin-bottom: 15px;
+    transition: 0.4s;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    position: relative;
+    display: inline-block;
+}
+.accordion_button {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    border-radius: 100px;
+    background-image: url(assets/plus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.accordion {
+    background-color: #FFF;
+    color: #000227;
+    font-family: Eastman;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 18px;
+    width: 670px;
+    text-align: left;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    display: inline-block;
+}
+.active, .accordion:hover, .accordion_block:hover {
+    background-color: #E8ECF2;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
+}
+.active > .accordion_button {
+    background-image: url(assets/minus.png);
+}
+.panel {
+    padding: 0 18px;
+    background-color: #E8ECF2;
+    display: none;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.panel > p {
+    color: #010328;
+    font-family: Minsans;
+    font-size: 16px;
+}
+.accordion_form {
+    width: 412;
+    vertical-align: top;
+    margin: 0px;
+}
