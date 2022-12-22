@@ -3,6 +3,7 @@ body {
     margin: 0px;
     align-items: center;
     position: absolute;
+    background-color: #f5f7fa;
 }
 
 .text_header {
@@ -12,8 +13,18 @@ body {
     margin-top: 70px;
 }
 
+.text_subheader {
+  color: #0002273C;
+  font-family: Minsans;
+  font-size: 16x;
+}
+
 .inline {
     display: inline-block;
+}
+
+.middle {
+  vertical-align: middle;
 }
 
   *,

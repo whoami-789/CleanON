@@ -1,12 +1,3 @@
-.main_info {
-    background-color: #f5f7fa;
-    display: inline-block;
-}
-
-.main_info_tiles {
-    display: inline-block;
-}
-
 .tile1 {
     background: #ffff;
     top: 50px;
@@ -57,7 +48,8 @@
 }
 
 .img_tile1 {
-    background-image: url(assets/tile1.png)
+    background-image: url(assets/tile1.png);
+    position: relative;
 }
 
 .img_tile2 {
@@ -79,6 +71,8 @@
     background-image: url(assets/cleaning.png);
     background-repeat: no-repeat;
     float: right;
+    margin-top: 30px;
+    vertical-align: middle;
 }
 
 .cleaning_text1 {
