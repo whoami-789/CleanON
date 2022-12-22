@@ -53,7 +53,7 @@
     font-family: Minsans;
 }
 
-.price_table {
+.price_block {
     margin-top: 50px;
 }
 
@@ -150,4 +150,9 @@
     float: left;
     padding: 15px;
     margin-left: -40%;
+}
+
+button.view_more_small:active {
+    background: #ecfaff;
+    transform: translate(0em, 0.1em);
 }
