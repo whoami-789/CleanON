@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="index_cleaned_number.css">
     <link rel="stylesheet" href="index_algoritm.css">
     <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="slider.css">
 </head>
 
 <body>
@@ -483,8 +484,25 @@
                 <p class="cleaning_example_header">Посмотрите несколько примеров наших работ</p>
             </div>
 
-            <div class="examples_block example1">
-                <div class="example_img"></div>
+            <div class="examples_block">
+                <div class="ex_slider" data-slider="itc-slider" data-loop="true" data-autoplay="false">
+                    <div class="itc-slider__wrapper">
+                        <div class="itc-slider__items itc-slider__items_works">
+                            <div class="itc-slider__item">
+                                <div>
+                                    <img src="assets/examle1.png" alt="" class="example_img">
+                                </div>
+                            </div>
+                            <div class="itc-slider__item">
+                                <div>
+                                    <img src="assets/example2.png" alt="" class="example_img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="itc-slider__btn itc-slider__btn_prev"></button>
+                    <button class="itc-slider__btn itc-slider__btn_next"></button>
+                </div>
                 <div class="example_info">
                     <p class="example_text">Уборка после ресторана</p>
                     <div class="examle_time_price">
@@ -702,7 +720,8 @@
                 </div>
                 <div class="alg_block3">
                     <div class="alg alg3"></div>
-                    <a class="alg_text">Заключение договора, подтверждение <br> заказа, за день до назначенной даты</a>
+                    <a class="alg_text">Заключение договора, подтверждение <br> заказа, за день до назначенной
+                        даты</a>
                 </div>
             </div>
             <div class="algoritm_block">
@@ -723,5 +742,7 @@
         </div>
     </div>
 </body>
+<script src="itc_slider.js" defer></script>
+
 
 </html>
