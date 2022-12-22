@@ -112,7 +112,7 @@
 }
 
 .price_table {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .price {
@@ -305,8 +305,8 @@ button.view_more:active {
     width: 130px;
     height: 150px;
     position: absolute;
-    left: 310px;
-    top: 52px;
+    left: 340px;
+    top: 83px;
     background-image: url(assets/service_10.png);
     background-repeat: no-repeat;
 }
@@ -314,7 +314,7 @@ button.view_more:active {
 .button_stok {
     width: 217px;
     height: 53px;
-    margin-top: 10px;
+    margin-top: 23px;
     background-color: #ffff;
     border-color: #ffff;
     border-radius: 30px;

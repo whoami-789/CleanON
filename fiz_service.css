@@ -1,0 +1,153 @@
+.rect3 {
+    width: 540px;
+    height: 200px;
+}
+
+
+.rect {
+    background: #f5f7fa;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    position: relative;
+}
+
+.rect_text {
+    display: inline-block;
+    text-align: left;
+    margin-left: -250px;
+}
+
+.rect_text_small {
+    display: inline-block;
+    text-align: left;
+    margin-left: -110px;
+}
+
+.service_time_person {
+    display: flex;
+    margin-top: 5px;
+}
+
+.rect_header {
+    color: #000227;
+    font-family: Eastman;
+    font-size: 22px;
+}
+
+.time_worker {
+    font-family: TTNormsPro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123.1%;
+    color: #62647b;
+}
+
+.time {
+    float: right;
+    text-align: right;
+    color: #000227;
+    font-family: Minsans;
+}
+
+.price_table {
+    margin-top: 50px;
+}
+
+.price {
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-family: Eastman;
+    font-size: 18px;
+}
+
+.view_more_small {
+    padding-right: 90px;
+    padding-left: 90px;
+    float: right;
+    font-size: 14px;
+    font-family: Eastman;
+    border: 2px #00bbfc;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: left;
+    background-color: #f5f7fa;
+}
+
+.service_text {
+    font-family: Eastman;
+    font-weight: 400;
+    font-size: 32px;
+    top: 10%;
+    margin-left: -28%;
+    color: #000227;
+}
+
+.arrow_small {
+    float: right;
+    margin-right: -40%;
+    margin-top: 7%;
+    width: 22px;
+    height: 22px;
+    background-image: url(assets/arrow.png);
+    background-repeat: no-repeat;
+}
+
+.person_img {
+    float: right;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    background-image: url(assets/people.png);
+    background-repeat: no-repeat;
+}
+
+.round_img {
+    float: left;
+    top: 28px;
+    left: 28px;
+    border-radius: 100px;
+}
+
+.time_img {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    background-image: url(assets/clock.png);
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/service_2.jpg);
+}
+
+.img3 {
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/service_3.jpg);
+}
+
+.img4 {
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/service_4.jpg);
+}
+
+.img5 {
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/service_5.jpg);
+}
+
+.view_more_text_small {
+    float: left;
+    padding: 15px;
+    margin-left: -40%;
+}
