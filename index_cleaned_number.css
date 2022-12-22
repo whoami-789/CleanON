@@ -8,14 +8,12 @@
     margin-top: 90px;
 }
 
-
-
 .example_img {
     width: 550px;
     height: 293px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("assets/examle1.png");
+    /* background-image: url("assets/examle1.png"); */
     border-radius: 30px;
     margin-top: -40px;
 
@@ -24,7 +22,7 @@
 .examples_block {
     display: inline-block;
     width: 550px;
-    height: 660px;
+    height: 710px;
     border-radius: 20px;
     margin-top: 50px;
     margin-left: 20px;
