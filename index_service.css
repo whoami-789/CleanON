@@ -40,7 +40,7 @@
 .rect_text_small {
     display: inline-block;
     text-align: left;
-    margin-left: -150px;
+    margin-left: -110px;
 }
 
 .service_time_person {
@@ -112,7 +112,7 @@
 }
 
 .price_table {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .price {
@@ -302,11 +302,11 @@ button.view_more:active {
 }
 
 .img10 {
-    width: 224px;
-    height: 270px;
+    width: 130px;
+    height: 150px;
     position: absolute;
-    left: 300px;
-    top: 38px;
+    left: 310px;
+    top: 52px;
     background-image: url(assets/service_10.png);
     background-repeat: no-repeat;
 }
@@ -314,7 +314,7 @@ button.view_more:active {
 .button_stok {
     width: 217px;
     height: 53px;
-    margin-top: 10%;
+    margin-top: 10px;
     background-color: #ffff;
     border-color: #ffff;
     border-radius: 30px;
