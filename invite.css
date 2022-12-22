@@ -134,6 +134,7 @@
     text-align: center;
     font-family: Minsans;
     margin: 15px;
+    cursor: pointer;
 }
 .invite_form_button_whatsapp_img {
     position: absolute;
@@ -188,13 +189,17 @@
 }
 .invite_form_submit {
     color: #FFF;
-    background-color: #25A3E0;
+    background-color: #00BBFC;
     border-radius: 52px;
     padding: 1px;
     font-size: 14px;
     text-align: center;
     font-family: Eastman_bold;
     margin: 15px;
+    cursor: pointer;
+}
+.invite_form_submit:hover {
+    opacity: 80%;
 }
 .invite_form_check {
     color: #000227;

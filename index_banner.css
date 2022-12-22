@@ -40,9 +40,12 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.ib_text > p > span {
+.ib_text > p > a > span {
     color: #000227;
     text-decoration: underline;
+}
+.ib_text > p > a > span:hover {
+    opacity: 80%;
 }
 .ib_price {
 	background-color: #00BBFC;
@@ -54,6 +57,7 @@ body {
     overflow: hidden;
     text-align: center;
     box-shadow: 0px 0px 30px rgba(000,187,252,0.3);
+    cursor: pointer;
 }
 .ib_price:hover {
 	box-shadow: 0px 0px 0px rgba(0,0,0,0.0);

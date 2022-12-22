@@ -8,3 +8,6 @@
 .block_width {
     width: 1170px;
 }
+.block_width > a {
+    text-decoration: none;
+}

@@ -4,6 +4,13 @@ body {
     background-image: url(assets/background.png);
     background-repeat: no-repeat;
 	background-size:cover;
-    position: absolute;
     margin: 0px;
+    position: absolute;
 }
+
+  *,
+    *::before,
+    *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }

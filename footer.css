@@ -23,7 +23,7 @@
 }
 .footer_content > a:hover {
 	text-decoration: none;
-	color: #0002273C;
+	opacity: 80%;
 }
 .footer_block_height {
 	height: 375;
@@ -41,9 +41,13 @@
 	margin-bottom: 4px;
 }
 .footer_mail {
-	color: rgba(0, 2.0000138925388455, 39.00000147521496, 0.6000000238418579);
+	opacity: 80%;
 	font-size: 13px;
 	margin-top: 0px;
+}
+.footer_mail:hover {
+	opacity: unset;
+	color: #000227;
 }
 .footer_whatsapp { 
 	width: 27px;
@@ -86,7 +90,7 @@
 	display: inline-block;
 }
 .footer_address {
-	color: rgba(0, 2.0000138925388455, 39.00000147521496, 0.6000000238418579);
+	color: rgba(0, 2.0000138925388455, 39.00000147521496, 0.8);
 }
 .footer_logo_service {
 	width: 39px;

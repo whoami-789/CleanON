@@ -10,8 +10,8 @@
     text-align: left;
 }
 .sales_content {
-    width: 330px;
-	height: 240px;
+    width: 367px;
+	height: 265px;
     display: inline-block;
     vertical-align: top;
     border-radius: 20px;
@@ -242,6 +242,7 @@
     right: 25px;
     bottom: 20px;
     z-index: 2;
+    cursor: pointer;
 }
 .sales_block_button:hover {
     background-color: rgba(255, 255, 255, 0.8); 

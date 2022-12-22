@@ -12,3 +12,14 @@ body {
     font-size: 32px;
     margin-top: 70px;
 }
+
+.inline {
+    display: inline-block;
+}
+
+  *,
+    *::before,
+    *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }

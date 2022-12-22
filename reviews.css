@@ -62,7 +62,7 @@
     border-bottom: 2px dotted #000227;
 }
 .review_more:hover {
-    color: #0002273C;
+    opacity: 80%;
 }
 .review_more_width {
     width: max-content;

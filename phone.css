@@ -13,6 +13,9 @@
     position: relative;
     display: inline-block;
 }
+.text_up > p {
+    margin-top: -35px;
+}
 .phone_text {
     color: #000227;
     font-family: Minsans;
