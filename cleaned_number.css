@@ -14,7 +14,6 @@
     height: 293px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url("assets/examle1.png"); */
     border-radius: 30px;
     margin-top: -40px;
 
@@ -189,15 +188,17 @@ button.ex_case_button:active {
     transform: translate(0em, 0.1em);
 }
 
-/* .slider_works_width > div > .ex-slider__btn_prev {
-    width: 30px;
-    height: 30px;
-    left: 20px;
-    background-image: url(assets/white_arrow_left.png);
-  }
-  .slider_works_width > div > .-slider__btn_next {
-    width: 30px;
-    height: 30px;
-    right: 20px;
-    background-image: url(assets/white_arrow_right.png);
-  } */
+.cleaned_number_head{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Eastman;
+    color: #000227;
+}
+
+.cleaning_example_header{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Minsans;
+    color: #00022799;
+}
