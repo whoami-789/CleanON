@@ -59,7 +59,7 @@
     display: none;
   }
   
-  .itc-slider__btn_prev {
+  /* .itc-slider__btn_prev {
     left: -66;
     background-image: url(assets/prev.png);
 	  background-repeat: no-repeat;
@@ -71,10 +71,10 @@
     background-image: url(assets/next.png);
 	  background-repeat: no-repeat;
 	  background-size: cover;
-  }
+  } */
   
   .itc-slider__btn:hover {
-    opacity: 40%;
+    opacity: 80%;
   }
   
   .itc-slider__btn::before {
@@ -85,20 +85,13 @@
     
   }
   
-  .itc-slider__btn_prev::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  /* .itc-slider__btn_prev::before {
+    background-image: url("assets/free-icon-left-arrows-5053187.png");
   }
   
   .itc-slider__btn_next::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-  }
-  
-  *,
-    *::before,
-    *::after {
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-    }
+    background-image: url("assets/free-icon-right-arrows-5053189.png");
+  } */
 
     .itc-slider__item {
       max-width: 33.3333333333%;
@@ -109,8 +102,8 @@
     }
 
     .slider_height > div > * {
-      height: 260;
-      width: 357;
+      height: 320;
+      width: 620;
     }
 
     .sales > .itc-slider__btn {
@@ -118,20 +111,24 @@
     }
     
     .slider_works_width {
-      width: 570px;
+      width: 620px;
     }
     .itc-slider__items_works > .itc-slider__item > div > * {
       border-radius: 20px;
-      width: 570px;
-      height: 293px;
+      width: 620px;
+      height: 320px;
     }
     .slider_works_width > div > .itc-slider__btn_prev {
+      width: 30px;
+      height: 30px;
       left: 20px;
-      background-image: url(assets/prev.png);
+      background-image: url(assets/white_arrow_left.png);
     }
     .slider_works_width > div > .itc-slider__btn_next {
+      width: 30px;
+      height: 30px;
       right: 20px;
-      background-image: url(assets/next.png);
+      background-image: url(assets/white_arrow_right.png);
     }
     .slider_works_width > div > .itc-slider__btn {
       top: 42%;
@@ -139,4 +136,4 @@
 
     .itc-slider__items_works > .itc-slider__item {
       max-width: 100%;
-    }
+    } 
