@@ -1,41 +1,15 @@
-.tile1 {
-    background: #ffff;
-    top: 50px;
-    border-radius: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    width: 570px;
-    height: 170px;
+.main_info_tiles {
+    display: inline-block;
 }
 
-.tile2 {
+.tile {
     background: #ffff;
     top: 50px;
     border-radius: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 5px;
     width: 570px;
     height: 170px;
-}
-
-.tile3 {
-    background: #ffff;
-    top: 50px;
-    border-radius: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    width: 570px;
-    height: 170px;
-}
-
-.tile4 {
-    background: #ffff;
-    top: 50px;
-    border-radius: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    width: 570px;
-    height: 170px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1)
 }
 
 .round_tile {
@@ -48,8 +22,7 @@
 }
 
 .img_tile1 {
-    background-image: url(assets/tile1.png);
-    position: relative;
+    background-image: url(assets/tile1.png)
 }
 
 .img_tile2 {
@@ -71,8 +44,6 @@
     background-image: url(assets/cleaning.png);
     background-repeat: no-repeat;
     float: right;
-    margin-top: 30px;
-    vertical-align: middle;
 }
 
 .cleaning_text1 {
@@ -94,6 +65,7 @@
 .main_info_block {
     display: inline-block;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .text {

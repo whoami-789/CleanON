@@ -1,7 +1,8 @@
 .calc {
     display: inline-block;
     background-color: #f5f7fa;
-    margin-top: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .calc_head_text {
@@ -19,6 +20,8 @@
     background-color: #ffff;
     display: inline-block;
     border-radius: 20px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
 }
 
 .calc_types1 {

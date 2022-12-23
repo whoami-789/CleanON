@@ -4,9 +4,8 @@
     width: 100%;
     color: #000227;
     overflow: hidden;
-    margin-top: 30px;
-    margin-bottom: 30px;
     position: relative;
+    z-index: 0;
 }
 .invite_bg1 {
     transform: rotate(133.35320491813803deg);

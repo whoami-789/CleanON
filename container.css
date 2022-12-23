@@ -1,6 +1,14 @@
 .container {
+    background-color: #f5f7fa;
     text-align: center;
+    z-index: 0px;
 }
+.container_white {
+    background-color: #fff;
+    background: linear-gradient(to bottom 30deg, #f5f7fa, transparent), linear-gradient(to top 90deg, #f5f7fa, transparent); 
+}
+
+
 .block {
     text-align: left;
     display: inline-block;

@@ -1,5 +1,8 @@
 @import url(fonts.css);
 
+.cleaner_container {
+    margin-bottom: 50px;
+}
 .cleaner_block {
     width: 270px;
     height: 251px;
@@ -13,7 +16,7 @@
     display: inline-block;
 }
 .cleaner_name_block {
- margin-top: 20px;
+ margin-top: 5px;
 }
 .cleaner_photo {
     width: 150px;

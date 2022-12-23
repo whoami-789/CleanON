@@ -11,7 +11,6 @@
   
   .itc-slider__wrapper {
     overflow: hidden;
-    border-radius: 20px;
   }
   
   .itc-slider__items {
@@ -75,7 +74,7 @@
   }
   
   .itc-slider__btn:hover {
-    opacity: 80%;
+    opacity: 40%;
   }
   
   .itc-slider__btn::before {
@@ -93,6 +92,13 @@
   .itc-slider__btn_next::before {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
   }
+  
+  *,
+    *::before,
+    *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
 
     .itc-slider__item {
       max-width: 33.3333333333%;
@@ -112,11 +118,11 @@
     }
     
     .slider_works_width {
-      width: 550px;
+      width: 570px;
     }
     .itc-slider__items_works > .itc-slider__item > div > * {
       border-radius: 20px;
-      width: 550px;
+      width: 570px;
       height: 293px;
     }
     .slider_works_width > div > .itc-slider__btn_prev {

@@ -67,7 +67,8 @@
 .review_more_width {
     width: max-content;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 .review_center {
     text-align: center;
