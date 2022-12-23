@@ -208,7 +208,65 @@
 }
 .invite_form_pd {
     color: #00BBFC;
+    text-decoration: underline;
 }
-.invite_form_checkbox::before {
-    background-color: #00BBFC;
+
+.invite_checkbox.style-c {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.invite_checkbox.style-c input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.invite_checkbox.style-c input:checked~.invite_checkbox__checkmark {
+    background-color: #00bbfc;
+}
+
+.invite_checkbox.style-c input:checked~.invite_checkbox__checkmark:after {
+    opacity: 1;
+}
+
+.invite_checkbox.style-c:hover input~.invite_checkbox__checkmark {
+    background-color: #eee;
+}
+
+.invite_checkbox.style-c:hover input:checked~.invite_checkbox__checkmark {
+    background-color: #00bbfc;
+}
+
+.invite_checkbox.style-c .invite_checkbox__checkmark {
+    position: absolute;
+    top: 14px;
+    left: 23;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    transition: background-color 0.25s ease;
+    border-radius: 4px;
+}
+
+.invite_checkbox.style-c .invite_checkbox__checkmark:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.25s ease;
 }
