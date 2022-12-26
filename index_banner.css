@@ -14,7 +14,7 @@ body {
 	background-size: cover;
     z-index: 0;
     vertical-align: middle;
-    left: 540px;
+    margin-left: 400px;
     top: 170px;
     display: inline-block;
 }

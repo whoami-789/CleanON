@@ -3,19 +3,22 @@
     text-align: center;
     z-index: 0px;
 }
+
 .container_white {
     background-color: #fff;
-    background: linear-gradient(to bottom 30deg, #f5f7fa, transparent), linear-gradient(to top 90deg, #f5f7fa, transparent); 
+    background: linear-gradient(to bottom 30deg, #f5f7fa, transparent), linear-gradient(to top 90deg, #f5f7fa, transparent);
 }
 
 
 .block {
     text-align: left;
     display: inline-block;
-} 
+}
+
 .block_width {
     width: 1170px;
 }
-.block_width > a {
+
+.block_width>a {
     text-decoration: none;
 }
