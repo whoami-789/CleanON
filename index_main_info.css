@@ -94,10 +94,15 @@
         float: left;
         margin-left: 25px;
     }
+
+    .main_info {
+        display: inline-block;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .main_info {
+        width: 375px;
         display: inline-block;
     }
 
@@ -110,8 +115,8 @@
         top: 50px;
         border-radius: 20px;
         margin: 5px;
-        width: 290px;
-        height: 264px;
+        width: 350px;
+        height: 285px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)
     }
 
@@ -142,11 +147,10 @@
 
     .main_info_img1 {
         border-radius: 20px;
-        width: 290px;
+        width: 350px;
         height: 190px;
-        background-image: url(assets/cleaning_mobile.png);
+        background-image: url(assets/cleaning.png);
         background-repeat: no-repeat;
-        margin-left: 40px;
     }
 
     .cleaning_text1 {
@@ -172,7 +176,7 @@
     }
 
     .text {
-        margin-right: 70px;
+        margin-right: 35px;
     }
 
     .tiles_text1 {

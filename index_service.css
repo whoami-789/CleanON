@@ -362,6 +362,14 @@
 }
 
 @media only screen and (max-width: 1000px) {
+    .text_header {
+        color: #000227;
+        font-family: Eastman;
+        font-size: 24px;
+        margin-top: 70px;
+        width: 350px;
+    }
+
     .main_service {
         margin-top: 30px;
         margin-bottom: 30px;
@@ -369,6 +377,7 @@
 
     .main_service_block {
         text-align: left;
+        margin-left: 20px;
     }
 
     .service_text {
@@ -387,14 +396,12 @@
     .rect {
         background: #f5f7fa;
         display: inline-block;
-        vertical-align: top;
         border-radius: 20px;
         margin-top: 20px;
-        margin-left: 20px;
         padding: 15px;
-        position: relative;
-        width: 290px;
+        width: 350px;
         height: 390px;
+        margin-left: 25px;
     }
 
     .rect_text {
@@ -416,16 +423,11 @@
 
     .rect1 {
         background: #f5f7fa;
-        display: inline-block;
-        vertical-align: top;
         border-radius: 20px;
         margin-top: 20px;
-        margin-left: 20px;
         padding: 15px;
         position: relative;
         line-height: normal;
-        display: inline-block;
-        vertical-align: middle;
     }
 
     .rect2 {
@@ -434,15 +436,11 @@
 
     .rect3 {
         background: #f5f7fa;
-        vertical-align: top;
         border-radius: 20px;
         margin-top: 20px;
-        margin-left: 20px;
         padding: 15px;
         position: relative;
         line-height: normal;
-        display: inline-block;
-        vertical-align: middle;
     }
 
     .rect10 {
@@ -616,8 +614,8 @@
     }
 
     .img1 {
-        width: 75px;
-        height: 75px;
+        width: 100px;
+        height: 100px;
         background-image: url(assets/service_1.png);
     }
 

@@ -221,12 +221,14 @@
                 </div>
                 <div class="main_info_img1"></div>
             </div>
+            <br>
             <div class="main_info_tiles">
                 <div class="main_info_tiles tile">
                     <div class="round_tile img_tile1"></div>
                     <div class="tiles_text">
                         <p class="tiles_text1">Безопасные моющие средства</p>
-                        <p class="tiles_text2"> Используем качественное моющее оборудование из Италии, Германии и США.</p>
+                        <p class="tiles_text2"> Используем качественное моющее оборудование из Италии, Германии и США.
+                        </p>
                     </div>
                 </div>
 
@@ -234,7 +236,8 @@
                     <div class="round_tile img_tile2"></div>
                     <div class="tiles_text">
                         <p class="tiles_text1">Безопасные моющие средства</p>
-                        <p class="tiles_text2"> Применяем экологичные моющие средства Grass и Karcher, которые полностью отвечают требованиям безопасности.</p>
+                        <p class="tiles_text2"> Применяем экологичные моющие средства Grass и Karcher, которые полностью
+                            отвечают требованиям безопасности.</p>
                     </div>
                 </div>
                 <br>
@@ -253,7 +256,8 @@
                     <div class="round_tile img_tile4"></div>
                     <div class="tiles_text">
                         <p class="tiles_text1">Безопасные моющие средства</p>
-                        <p class="tiles_text2"> После выполнения уборки, мы отправляем всем клиентам фотоотчет о проделанной работе.</p>
+                        <p class="tiles_text2"> После выполнения уборки, мы отправляем всем клиентам фотоотчет о
+                            проделанной работе.</p>
                     </div>
                 </div>
             </div>
@@ -271,99 +275,103 @@
             </div>
 
             <div class="calc_block_rect">
-                <div class="calc_margin">
-                    <p class="calc_types1">1. Тип помещения:</p>
-                    <p class="calc_types2">2. Вид уборки</p>
-                    <p class="calc_types3">3. Площадь помещения</p>
-                </div>
-                <div class="select_type_block">
-                    <select name="scape_type" required class="scape_type">
-                        <option value="Flat">Квартира</option>
-                        <option value="Office">Офис</option>
-                        <option value="House">Дом</option>
-                    </select>
-                    <select name="clean_type" required class="clean_type">
-                        <option value="#">Генеральная</option>
-                        <option value="#">Влажная</option>
-                    </select>
-                    <div class="select_metr">
-                        <div class="select_metr_text">
-                            <p class="m10">10м2</p>
-                            <p class="m100">100м2</p>
+                <div class="calc_flex">
+                    <div class="calc_block1">
+                        <p class="calc_types1">1. Тип помещения:</p>
+                        <select name="scape_type" required class="scape_type">
+                            <option value="Flat">Квартира</option>
+                            <option value="Office">Офис</option>
+                            <option value="House">Дом</option>
+                        </select>
+                        <div class="checkbox_block check_block1">
+                            <div class="check_mkad">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body">Выезд за МКАД</div>
+                                </label>
+                            </div>
+
+                            <div class="check_window">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body">Мытье окон</div>
+                                </label>
+                            </div>
+
+                            <div class="check_cleaner">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body">Химчистка мебели</div>
+                                </label>
+                            </div>
                         </div>
-                        <input type="range" value="10" id="metr" min="10" max="100" class="metr">
+                    </div>
+                    <div class="calc_block2">
+                        <p class="calc_types2">2. Вид уборки</p>
+                        <select name="clean_type" required class="clean_type">
+                            <option value="#">Генеральная</option>
+                            <option value="#">Влажная</option>
+                        </select>
+                        <div class="checkbox_block check_block2">
+                            <div class="check_curtain">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body">Шторы</div>
+                                </label>
+                            </div>
+
+                            <div class="check_ironing">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body">Глажка</div>
+                                </label>
+                            </div>
+
+                            <div class="check_shower">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body">Душевая кабина/Джакузи</div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calc_block3">
+                        <p class="calc_types3">3. Площадь помещения</p>
+                        <div class="select_metr">
+                            <div class="select_metr_text">
+                                <p class="m10">10м2</p>
+                                <p class="m100">100м2</p>
+                            </div>
+                            <input type="range" value="10" id="metr" min="10" max="100" class="metr">
+                        </div>
+                        <div class="checkbox_block check_block3">
+                            <div class="check_light">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body">Осветительные приборы</div>
+                                </label>
+                            </div>
+
+                            <div class="check_tech">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body">Бытовая техника</div>
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="checkbox_block">
-                    <div class="check_block1">
-                        <div class="check_mkad">
-                            <label class="checkbox style-c">
-                                <input type="checkbox" />
-                                <div class="checkbox__checkmark"></div>
-                                <div class="checkbox__body">Выезд за МКАД</div>
-                            </label>
-                        </div>
 
-                        <div class="check_window">
-                            <label class="checkbox style-c">
-                                <input type="checkbox" />
-                                <div class="checkbox__checkmark"></div>
-                                <div class="checkbox__body">Мытье окон</div>
-                            </label>
-                        </div>
+                <br>
 
-                        <div class="check_cleaner">
-                            <label class="checkbox style-c">
-                                <input type="checkbox" />
-                                <div class="checkbox__checkmark"></div>
-                                <div class="checkbox__body">Химчистка мебели</div>
-                            </label>
-                        </div>
-                    </div>
-
-                    <div class="check_block2">
-                        <div class="check_curtain">
-                            <label class="checkbox style-c">
-                                <input type="checkbox" />
-                                <div class="checkbox__checkmark"></div>
-                                <div class="checkbox__body">Шторы</div>
-                            </label>
-                        </div>
-
-                        <div class="check_ironing">
-                            <label class="checkbox style-c">
-                                <input type="checkbox" />
-                                <div class="checkbox__checkmark"></div>
-                                <div class="checkbox__body">Глажка</div>
-                            </label>
-                        </div>
-
-                        <div class="check_shower">
-                            <label class="checkbox style-c">
-                                <input type="checkbox" />
-                                <div class="checkbox__checkmark"></div>
-                                <div class="checkbox__body">Душевая кабина/Джакузи</div>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="check_block3">
-                        <div class="check_light">
-                            <label class="checkbox style-c">
-                                <input type="checkbox" />
-                                <div class="checkbox__checkmark"></div>
-                                <div class="checkbox__body">Осветительные приборы</div>
-                            </label>
-                        </div>
-
-                        <div class="check_tech">
-                            <label class="checkbox style-c">
-                                <input type="checkbox" />
-                                <div class="checkbox__checkmark"></div>
-                                <div class="checkbox__body">Бытовая техника</div>
-                            </label>
-                        </div>
-                    </div>
-                </div>
                 <div class="calc_block_footer">
                     <div class="calc_img"></div>
                     <div class="calc_block_price">
@@ -372,24 +380,28 @@
                         <p class="computation">*Данный расчет является предварительным, точную стоимость уточняйте у
                             менеджеров</p>
                     </div>
-                </div>
-                <div class="calc_input_button_block">
-                    <div class="calc_number_input_block">
-                        <input type="text" class="calc_input_number" placeholder="Ваш номер телефона">
+                    <div class="calc_input_button_block">
+                        <div class="calc_number_input_block">
+                            <input type="text" class="calc_input_number" placeholder="Ваш номер телефона">
+                        </div>
+                        <div class="calc_cleaning_button">
+                            <button class="calc_input_button">Заказать уборку</button>
+                        </div>
                         <div class="checkbox_calc_number">
                             <label class="checkbox style-c">
                                 <input type="checkbox" />
                                 <div class="checkbox__checkmark"></div>
-                                <div class="checkbox__body_agree">Даю согласие на <a class="calc_agree" href="#">
-                                        обработку
-                                        персональных данных</a></div>
+                                <a class="checkbox__body_agree">Даю согласие на <a class="calc_agree" href="#"> обработку
+                                    персональных данных</a></a>
+                                    
                             </label>
+                            <!-- <div class="checkbox__body_agree">Даю согласие на <a class="calc_agree" href="#">
+                                обработку
+                                персональных данных</a></div> -->
                         </div>
                     </div>
-                    <div class="calc_cleaning_button">
-                        <button class="calc_input_button">Заказать уборку</button>
-                    </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -1062,7 +1074,8 @@
                                         </div>
 
                                         <div class="sales_block">
-                                            <p class="sales_block_header_margin">Получите купон и гарантированную<br>
+                                            <p class="sales_block_header_margin">Получите купон и
+                                                гарантированную<br>
                                                 скидку на любые наши услуги при<br>
                                                 первом заказе</p>
                                         </div>
@@ -1111,7 +1124,8 @@
                                         </div>
 
                                         <div class="sales_block">
-                                            <p class="sales_block_header_margin">За каждого друга, который сделает<br>
+                                            <p class="sales_block_header_margin">За каждого друга, который
+                                                сделает<br>
                                                 заказ по Вашей рекомендации, мы<br>
                                                 дарим подарок на следующую<br>
                                                 уборку! Другу скидка 15%!<br>
@@ -1137,7 +1151,8 @@
                                         </div>
 
                                         <div class="sales_block">
-                                            <p class="sales_block_header_margin">Заключите договор на срок от 1 года<br>
+                                            <p class="sales_block_header_margin">Заключите договор на срок от 1
+                                                года<br>
                                                 и получите генеральную уборку в<br>
                                                 подарок!</p>
                                         </div>
@@ -1210,7 +1225,8 @@
                                         </div>
 
                                         <div class="sales_block">
-                                            <p class="sales_block_header_margin">Скидка 30% на химчистку при заказе<br>
+                                            <p class="sales_block_header_margin">Скидка 30% на химчистку при
+                                                заказе<br>
                                                 генеральной уборки! Чистота сама<br>
                                                 не придет, но она придет с нами!</p>
                                         </div>
@@ -1466,38 +1482,40 @@
         <div class="block">
             <div class="block_width">
                 <div class="algoritm_main_block">
-                    <div class="calc_block_header">
-                        <p class="calc_head_text">Простой алгоритм работы</p>
+                    <div class="alg_block_header">
+                        <p class="alg_head_text">Простой алгоритм работы</p>
                     </div>
                     <div class="algoritm_block_button">
-                        <div class="alg_block1">
+                        <div class="alg_block">
                             <div class="alg alg1"></div>
                             <a class="alg_text">Оставляете заявку на сайте</a>
                             <br>
                             <button class="alg_input_button">ОСТАВИТЬ ЗАЯВКУ</button>
                         </div>
-                        <div class="alg_block2">
+                        <div class="alg_block">
                             <div class="alg alg2"></div>
                             <a class="alg_text">Консультация и <br>
                                 оценка стоимости работ/услуг</a>
                         </div>
-                        <div class="alg_block3">
+                        <div class="alg_block">
                             <div class="alg alg3"></div>
-                            <a class="alg_text">Заключение договора, подтверждение <br> заказа, за день до назначенной
+                            <a class="alg_text">Заключение договора, подтверждение <br> заказа, за день до
+                                назначенной
                                 даты</a>
                         </div>
                     </div>
                     <div class="algoritm_block">
-                        <div class="alg_block4">
+                        <div class="alg_block">
                             <div class="alg alg4"></div>
-                            <a class="alg_text">Наши специалисты приступают к <br> выполнению перечня работ и услуг</a>
+                            <a class="alg_text">Наши специалисты приступают к <br> выполнению перечня работ и
+                                услуг</a>
                         </div>
-                        <div class="alg_block5">
+                        <div class="alg_block">
                             <div class="alg alg5"></div>
                             <a class="alg_text">Приемка выполненных работ, <br>
                                 подписание заказ-наряда</a>
                         </div>
-                        <div class="alg_block6">
+                        <div class="alg_block">
                             <div class="alg alg6"></div>
                             <a class="alg_text">Оплата выполненных услуг</a>
                         </div>
@@ -1508,7 +1526,7 @@
     </div>
 
     <!--cleaners-->
-    <div class="container">
+    <!-- <div class="container">
         <div class="block cleaner_container">
             <div class="block_width">
 
@@ -1646,10 +1664,10 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--questions(accordion)-->
-    <div class="container container_white">
+    <!-- <div class="container container_white">
         <div class="block">
             <div class="block_width">
 
@@ -1760,10 +1778,10 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--footer-->
-    <div class="container footer">
+    <!-- <div class="container footer">
         <div class="block">
             <div class="block_width">
 
@@ -1914,7 +1932,7 @@
 
             </div>
         </div>
-    </div>
+    </div>-->
 
 </body>
 <script src="itc_slider.js" defer></script>

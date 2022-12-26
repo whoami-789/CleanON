@@ -1,18 +1,18 @@
 @media only screen and (max-width: 1000px) {
 
     .block_width {
-        width: 420px;
+        width: 375px;
     }
 
     body {
-        width: 420px;
+        width: 375px;
     }
 
     .ib_banner {
-        width: 420px;
+        width: 375px;
     }
 
-    .ib_header_worker {
+    /* .ib_header_worker {
         width: 632px;
         height: 540px;
         position: absolute;
@@ -24,10 +24,10 @@
         margin-right: 500px;
         top: 170px;
         display: inline-block;
-    }
+    } */
 
     .container {
-        width: 420px;
+        width: 375px;
     }
 
     .menu_container {
