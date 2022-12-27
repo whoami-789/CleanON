@@ -335,7 +335,7 @@ input[type="range"]::-webkit-slider-thumb {
 .calc_input_number {
     border-radius: 50px;
     border-width: 0px;
-    border: 0px solid;
+    border: 0px;
     padding-right: 70px;
     padding-left: 20px;
     padding-top: 30px;
@@ -344,6 +344,7 @@ input[type="range"]::-webkit-slider-thumb {
     margin-left: -60px;
     text-align: center;
     font-family: Minsans;
+    outline: none;
 }
 
 .calc_input_number:hover {
@@ -364,7 +365,6 @@ input[type="range"]::-webkit-slider-thumb {
 
 .calc_input_button {
     border-radius: 50px;
-    border: 0px #01b9fc solid;
     padding-right: 60px;
     padding-left: 60px;
     padding-top: 30px;
@@ -378,6 +378,7 @@ input[type="range"]::-webkit-slider-thumb {
     color: #fff;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgba(000,187,252,0.3);
+    border: 0;
 }
 
 button.calc_input_button:hover  {

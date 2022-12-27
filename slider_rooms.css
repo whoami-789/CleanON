@@ -130,10 +130,10 @@
   background-size: cover;
 }
 .rooms_bg3 {
-  width: 538px;
+  width: 488px;
   height: 572px;
   position: absolute;
-  left: 930px;
+  left: 855px;
   top: -250px;
   background-image: url(assets/bg_window.png);
   background-repeat: no-repeat;
