@@ -19,11 +19,38 @@
     font-size: 32px;
     margin-top: 0px;
 }
-.review_avatar {
+.review_avatar1 {
     width: 75px;
     height: 75px;
     border-radius: 100px;
-    background-image: url(assets/img.jpg);
+    background-image: url(assets/client1.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    display: inline-block;
+}
+.review_avatar2 {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    background-image: url(assets/client2.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    display: inline-block;
+}
+.review_avatar3 {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    background-image: url(assets/client3.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    display: inline-block;
+}
+.review_avatar4 {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    background-image: url(assets/client4.png);
     background-repeat: no-repeat;
 	background-size: cover;
     display: inline-block;
