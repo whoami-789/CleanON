@@ -8,24 +8,6 @@
         width: 375px;
     }
 
-    .ib_banner {
-        width: 375px;
-    }
-
-    /* .ib_header_worker {
-        width: 632px;
-        height: 540px;
-        position: absolute;
-        background-image: url(assets/index_banner_worker.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: 0;
-        vertical-align: middle;
-        margin-right: 500px;
-        top: 170px;
-        display: inline-block;
-    } */
-
     .container {
         width: 375px;
     }
@@ -33,12 +15,7 @@
     .menu_container {
         height: 55px;
         background-color: #E8ECF2;
-    }
-
-    .menu_container {
-        height: 55px;
-        background-color: #E8ECF2;
-        /* display: absolute; */
+        display: none;
     }
 
     .menu_block {
@@ -147,9 +124,4 @@
     .header_menu {
         display: none;
     }
-
-    /* .rect_block{
-
-    } */
-
 }

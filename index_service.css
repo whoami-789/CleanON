@@ -377,7 +377,7 @@
 
     .main_service_block {
         text-align: left;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .service_text {
@@ -401,7 +401,6 @@
         padding: 15px;
         width: 350px;
         height: 390px;
-        margin-left: 25px;
     }
 
     .rect_text {
