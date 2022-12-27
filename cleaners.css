@@ -1,52 +1,139 @@
 @import url(fonts.css);
 
-.cleaner_container {
-    margin-bottom: 50px;
+@media only screen and (min-width: 1001px) {
+    .cleaner_container {
+        margin-bottom: 50px;
+    }
+
+    .cleaner_block {
+        width: 270px;
+        height: 251px;
+        background-color: #FFF;
+        border-radius: 20px;
+        margin: 9px;
+        padding: 15px;
+        overflow: hidden;
+        text-align: center;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+    }
+
+    .cleaner_name_block {
+        margin-top: 5px;
+    }
+
+    .cleaner_photo {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+    }
+
+    .cleaner_name {
+        color: #000227;
+        font-family: Eastman;
+        font-size: 18px;
+        margin-top: 35px;
+    }
+
+    .cleaner_workage_block {
+        width: 70px;
+        height: 30px;
+        border-radius: 52px;
+        padding: -9px;
+        background-color: #25A3E0;
+        position: relative;
+        display: inline-block;
+        right: -40px;
+        top: 110px;
+    }
+
+    .cleaner_workage {
+        color: #FFF;
+        font-family: TTNormsPro_bold;
+        font-size: 16px;
+        margin-top: 5px;
+    }
 }
-.cleaner_block {
-    width: 270px;
-    height: 251px;
-    background-color: #FFF;
-    border-radius: 20px;
-    margin: 9px;
-    padding: 15px;
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
-    display: inline-block;
+
+@media only screen and (max-width: 1000px) {
+    .cleaner_container {
+        margin-bottom: 50px;
+    }
+
+    .cleaner_block {
+        margin: 9px;
+        padding: 15px;
+        margin-bottom: -25px;
+        overflow: hidden;
+        text-align: center;
+        display: inline-block;
+        margin-left: 26px;
+    }
+
+    .cleaner_name_block {
+        margin-top: 5px;
+    }
+
+    .cleaner_photo {
+        width: 110px;
+        height: 110px;
+        border-radius: 100px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cleaner_name {
+        color: #000227;
+        font-family: Eastman;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .cleaner_workage_block {
+        width: 70px;
+        height: 30px;
+        border-radius: 52px;
+        padding: -9px;
+        background-color: #25A3E0;
+        position: relative;
+        display: inline-block;
+        right: -27px;
+        top: 64px;
+    }
+
+    .cleaner_workage {
+        color: #FFF;
+        font-family: TTNormsPro_bold;
+        font-size: 16px;
+        margin-top: 5px;
+    }
 }
-.cleaner_name_block {
- margin-top: 5px;
+
+.w1{
+    background-image: url(assets/worker1.png);
 }
-.cleaner_photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    background-image: url(assets/img.jpg);
-    background-repeat: no-repeat;
-	background-size: cover;
-    display: inline-block;
+.w2{
+    background-image: url(assets/worker2.png);
 }
-.cleaner_name {
-    color: #000227;
-    font-family: Eastman;
-    font-size: 18px;
-    margin-top: 35px;
+.w3{
+    background-image: url(assets/worker3.png);
 }
-.cleaner_workage_block {
-    width: 70px;
-    height: 30px;
-    border-radius: 52px;
-    padding: -9px;
-    background-color: #25A3E0;
-    position: relative;
-    display: inline-block;
-    right: -40px;
-    top: 110px;
+.w4{
+    background-image: url(assets/worker4.png);
 }
-.cleaner_workage {
-    color: #FFF;
-    font-family: TTNormsPro_bold;
-    font-size: 16px;
-    margin-top: 5px;
+.w5{
+    background-image: url(assets/worker5.png);
+}
+.w6{
+    background-image: url(assets/worker6.png);
+}
+.w7{
+    background-image: url(assets/worker7.png);
+}
+.w8{
+    background-image: url(assets/worker8.png);
 }
