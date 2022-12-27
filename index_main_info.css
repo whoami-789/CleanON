@@ -1,3 +1,8 @@
+.main_info {
+    padding-bottom: 70px;
+    width: 1170px;
+}
+
 .main_info_tiles {
     display: inline-block;
 }

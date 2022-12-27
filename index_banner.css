@@ -1,21 +1,16 @@
 @import url(fonts.css);
-body {
-    background-image: url(assets/index_banner.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 .ib_header_worker {
-    width: 632px;
-    height: 540px;
+    width: 632;
+    height: 540;
     position: absolute;
 	background-image: url(assets/index_banner_worker.png);
 	background-repeat: no-repeat;
 	background-size: cover;
     z-index: 0;
     vertical-align: middle;
-    left: 540px;
-    top: 170px;
+    left: 500px;
+    top: 7px;
     display: inline-block;
 }
 .ib_header {
@@ -74,7 +69,7 @@ body {
     width: 1170px;
     border-radius: 20px;
     margin: 0px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 60px;
     padding: 15px;
     overflow: hidden;

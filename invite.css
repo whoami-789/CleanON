@@ -6,6 +6,7 @@
     overflow: hidden;
     position: relative;
     z-index: 0;
+    padding-bottom: 30px;
 }
 .invite_bg1 {
     transform: rotate(133.35320491813803deg);
@@ -17,7 +18,6 @@
 	background-image: url(assets/form_1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-    z-index: 1;
 }
 .invite_bg2 {
     transform: rotate(111.88741336170541deg);
@@ -29,7 +29,6 @@
 	background-image: url(assets/form_2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-    z-index: 1;
 }
 .invite_info {
     width: 387px;
@@ -174,6 +173,17 @@
     border-radius: 52px;
     padding: 1px;
     margin: 15px;
+    cursor: pointer;
+}
+.invite_form_number_block:hover {
+    border: 2px solid #00BBFC;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.invite_form_number_block:focus-within {
+    border: 2px solid #00BBFC;
+    margin-top: -2px;
+    margin-bottom: -2px;
 }
 .invite_form_number {
     color: #0002273C;
@@ -185,6 +195,7 @@
     font-family: Minsans;
     margin-top: 12px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .invite_form_submit {
     color: #FFF;
