@@ -1,79 +1,169 @@
-.phone_banner {
-    background-color: #FFF;
-    width: 1170px;
-    height: 450;
-    border-radius: 20px;
-    margin: 0px;
-    margin-top: 200px;
-    margin-bottom: 60px;
-    padding: 60px;
-    padding-top: 20px;
-    text-align: middle;
-    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
-    position: relative;
-    display: inline-block;
+@media only screen and (min-width: 1001px) {
+
+    .phone_banner {
+        background-color: #FFF;
+        width: 1170px;
+        height: 450;
+        border-radius: 20px;
+        margin: 0px;
+        margin-top: 200px;
+        margin-bottom: 60px;
+        padding: 60px;
+        padding-top: 20px;
+        text-align: middle;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+        position: relative;
+        display: inline-block;
+    }
+
+    .text_up>p {
+        margin-top: -35px;
+    }
+
+    .phone_text {
+        color: #000227;
+        font-family: Minsans;
+        font-size: 16px;
+    }
+
+    .phone_button_width {
+        width: 340px;
+        position: relative;
+        left: -20px;
+        top: 30px;
+    }
+
+    .phone_list1 {
+        width: 33px;
+        height: 58px;
+        background-image: url(assets/form_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 30px;
+        right: -80px;
+        position: absolute;
+        transform: rotate(56.01498599785284deg);
+    }
+
+    .phone_list2 {
+        width: 41px;
+        height: 33px;
+        background-image: url(assets/form_2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: -50px;
+        left: -80px;
+        position: absolute;
+        transform: rotate(-9.630272161090403deg);
+    }
+
+    .phone_circle1 {
+        width: 32px;
+        height: 32px;
+        background-image: url(assets/phone_circle1.png);
+        background-repeat: no-repeat;
+        bottom: 145px;
+        left: 620px;
+        position: absolute;
+    }
+
+    .phone_circle2 {
+        width: 438px;
+        height: 257px;
+        background-image: url(assets/phone_circle2.png);
+        background-repeat: no-repeat;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+        border-bottom-right-radius: 20px;
+    }
+
+    .phone_img {
+        width: 328px;
+        height: 519px;
+        background-image: url(assets/phone.png);
+        background-repeat: no-repeat;
+        bottom: 0px;
+        left: 700px;
+        position: absolute;
+    }
 }
-.text_up > p {
-    margin-top: -35px;
-}
-.phone_text {
-    color: #000227;
-    font-family: Minsans;
-    font-size: 16px;
-}
-.phone_button_width {
-    width: 340px;
-    position: relative;
-    left: -20px;
-    top: 30px;
-}
-.phone_list1 {
-    width: 33px;
-    height: 58px;
-	background-image: url(assets/form_1.png);
-	background-repeat: no-repeat;
-    background-size: cover;
-    top: 30px;
-    right: -80px;
-    position: absolute;
-    transform: rotate(56.01498599785284deg);
-}
-.phone_list2 {
-    width: 41px;
-    height: 33px;
-	background-image: url(assets/form_2.png);
-	background-repeat: no-repeat;
-    background-size: cover;
-    bottom: -50px;
-    left: -80px;
-    position: absolute;
-    transform: rotate(-9.630272161090403deg);
-}
-.phone_circle1 {
-    width: 32px;
-    height: 32px;
-	background-image: url(assets/phone_circle1.png);
-	background-repeat: no-repeat;
-    bottom: 145px;
-    left: 620px;
-    position: absolute;
-}
-.phone_circle2 {
-    width: 438px;
-    height: 257px;
-	background-image: url(assets/phone_circle2.png);
-	background-repeat: no-repeat;
-    bottom: 0px;
-    right: 0px;
-    position: absolute;
-    border-bottom-right-radius: 20px;
-}
-.phone_img {
-    width: 328px;
-    height: 519px;
-	background-image: url(assets/phone.png);
-	background-repeat: no-repeat;
-    bottom: 0px;
-    left: 700px;
-    position: absolute;
+
+@media only screen and (max-width: 1000px) {
+
+    .phone_banner {
+        background-color: #FFF;
+        width: 350px;
+        height: 720px;
+        border-radius: 20px;
+        padding-top: 20px;
+        text-align: left;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+        position: relative;
+        display: inline-block;
+    }
+
+    .text_up>p {
+        margin-top: -65px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .phone_text {
+        margin-left: 20px;
+        color: #000227;
+        font-family: Minsans;
+        font-size: 16px;
+    }
+
+    .phone_button_width {
+        height: 70px;
+        width: 290px;
+        position: relative;
+        left: 15px;
+        top: 10px;
+    }
+
+    .invite_form_button>p{
+        margin-top: 25px;
+    }
+
+    .phone_list1 {
+        display: none;
+    }
+
+    .phone_list2 {
+        display: none;
+    }
+
+    .phone_circle1 {
+        width: 32px;
+        height: 32px;
+        background-image: url(assets/phone_circle1.png);
+        background-repeat: no-repeat;
+        bottom: 145px;
+        left: 21px;;
+        position: absolute;
+    }
+
+    .phone_circle2 {
+        width: 333px;
+        height: 159px;
+        background-image: url(assets/phone_circle2.png);
+        background-repeat: no-repeat;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+        border-bottom-right-radius: 20px;
+    }
+
+    .phone_img {
+        width: 168px;
+        height: 335px;
+        background-image: url(assets/phone_mobile.png);
+        background-repeat: no-repeat;
+        bottom: -66px;
+        left: 90px;
+        position: absolute;
+    }
 }

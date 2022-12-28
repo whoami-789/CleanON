@@ -167,7 +167,7 @@
         margin-right: 65px;
     }
 
-    .checkbox.style-c {
+    .checkbox.style-c{
         display: inline-block;
         position: relative;
         padding-left: 30px;
@@ -178,8 +178,8 @@
         user-select: none;
     }
 
-    /* .checkbox.style-a {
-        display: inline-block;
+    .checkbox.style-a {
+        display: flex;
         position: relative;
         padding-left: 30px;
         cursor: pointer;
@@ -187,9 +187,9 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-    } */
+    }
 
-    .checkbox.style-c input {
+    .checkbox input {
         position: absolute;
         opacity: 0;
         cursor: pointer;
@@ -197,23 +197,23 @@
         width: 0;
     }
 
-    .checkbox.style-c input:checked~.checkbox__checkmark {
+    .checkbox input:checked~.checkbox__checkmark {
         background-color: #00bbfc;
     }
 
-    .checkbox.style-c input:checked~.checkbox__checkmark:after {
+    .checkbox input:checked~.checkbox__checkmark:after {
         opacity: 1;
     }
 
-    .checkbox.style-c:hover input~.checkbox__checkmark {
+    .checkbox:hover input~.checkbox__checkmark {
         background-color: #eee;
     }
 
-    .checkbox.style-c:hover input:checked~.checkbox__checkmark {
+    .checkbox:hover input:checked~.checkbox__checkmark {
         background-color: #00bbfc;
     }
 
-    .checkbox.style-c .checkbox__checkmark {
+    .checkbox .checkbox__checkmark {
         position: absolute;
         top: 2px;
         left: 0;
@@ -224,7 +224,7 @@
         border-radius: 4px;
     }
 
-    .checkbox.style-c .checkbox__checkmark:after {
+    .checkbox .checkbox__checkmark:after {
         content: "";
         position: absolute;
         left: 8px;
@@ -238,7 +238,7 @@
         transition: opacity 0.25s ease;
     }
 
-    .checkbox.style-c .checkbox__body {
+    .checkbox .checkbox__body {
         color: #333;
         line-height: 1.4;
         font-size: 16px;
@@ -569,7 +569,18 @@
         user-select: none;
     }
 
-    .checkbox.style-c input {
+    .checkbox.style-a {
+        display: inline-block;
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .checkbox input {
         position: absolute;
         opacity: 0;
         cursor: pointer;
@@ -577,23 +588,23 @@
         width: 0;
     }
 
-    .checkbox.style-c input:checked~.checkbox__checkmark {
+    .checkbox input:checked~.checkbox__checkmark {
         background-color: #00bbfc;
     }
 
-    .checkbox.style-c input:checked~.checkbox__checkmark:after {
+    .checkbox input:checked~.checkbox__checkmark:after {
         opacity: 1;
     }
 
-    .checkbox.style-c:hover input~.checkbox__checkmark {
+    .checkbox:hover input~.checkbox__checkmark {
         background-color: #eee;
     }
 
-    .checkbox.style-c:hover input:checked~.checkbox__checkmark {
+    .checkbox:hover input:checked~.checkbox__checkmark {
         background-color: #00bbfc;
     }
 
-    .checkbox.style-c .checkbox__checkmark {
+    .checkbox .checkbox__checkmark {
         position: absolute;
         top: 2px;
         left: 0;
@@ -604,7 +615,7 @@
         border-radius: 4px;
     }
 
-    .checkbox.style-c .checkbox__checkmark:after {
+    .checkbox .checkbox__checkmark:after {
         content: "";
         position: absolute;
         left: 8px;
@@ -618,7 +629,7 @@
         transition: opacity 0.25s ease;
     }
 
-    .checkbox.style-c .checkbox__body {
+    .checkbox .checkbox__body {
         color: #333;
         line-height: 1.4;
         font-size: 16px;
@@ -666,7 +677,8 @@
         width: 100px;
         height: 100px;
         background-image: url(assets/calc.png);
-        margin-bottom: 50px;
+        /* margin-bottom: 20px; */
+        margin-left: 20px;
     }
 
     .calc_block_footer {
@@ -739,23 +751,22 @@
         font-family: Minsans;
     }
 
-    .calc_cleaning_button {}
 
     .calc_input_button {
         border-radius: 50px;
         border: 0px #01b9fc solid;
-        padding-right: 60px;
-        padding-left: 60px;
+        padding-right: 72px;
+        padding-left: 72px;
         padding-top: 30px;
         padding-bottom: 30px;
         background-color: #01b9fc;
-        /* margin-left: -35px; */
         margin-top: -1px;
         text-align: center;
         font-size: 14px;
         font-family: Eastman;
         color: #fff;
         cursor: pointer;
+        margin-top: 15px;
     }
 
     button.calc_input_button:hover {

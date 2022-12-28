@@ -312,3 +312,36 @@
 		-webkit-transform: rotate(45deg);
 	}
 }
+
+@media only screen and (max-width: 1001px){
+	
+	.header_logo {
+		width: 39px;
+		height: 37px;
+		background-image: url(assets/logo_service.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 15px;
+	}
+
+	.header_logo_text {
+		margin-left: 50px;
+		margin-top: -60px;
+	}
+
+	.header_clean {
+		color: #000227;
+		font-family: Eastman_bold;
+		font-size: 19.358110427856445px;
+		margin-bottom: 0px;
+	}
+
+	.header_service {
+		color: rgba(255, 102.00000151991844, 0, 1);
+		font-family: Minsans;
+		font-size: 11.333333015441895px;
+		margin-top: 0px;
+	}
+}
