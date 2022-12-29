@@ -20,7 +20,7 @@
     background-color: #ffff;
     display: inline-block;
     border-radius: 20px;
-    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
 }
 
@@ -352,6 +352,7 @@ input[type="range"]::-webkit-slider-thumb {
     margin-top: -2px;
     margin-bottom: -2px;
 }
+
 .calc_input_number:focus {
     border: 2px solid #00BBFC;
     margin-top: -2px;
@@ -377,11 +378,11 @@ input[type="range"]::-webkit-slider-thumb {
     font-family: Eastman;
     color: #fff;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgba(000,187,252,0.3);
+    box-shadow: 0px 0px 20px rgba(000, 187, 252, 0.3);
     border: 0;
 }
 
-button.calc_input_button:hover  {
+button.calc_input_button:hover {
     opacity: 80%;
-    box-shadow: 0px 0px 0px rgba(000,187,252,0.3);
+    box-shadow: 0px 0px 0px rgba(000, 187, 252, 0.3);
 }

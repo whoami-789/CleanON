@@ -8,28 +8,31 @@
     z-index: 0;
     padding-bottom: 30px;
 }
+
 .invite_bg1 {
     transform: rotate(133.35320491813803deg);
-	width:33px;
-	height:58px;
+    width: 33px;
+    height: 58px;
     position: relative;
-	left: -15px;
-	top: 560px;
-	background-image: url(assets/form_1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: -15px;
+    top: 560px;
+    background-image: url(assets/form_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .invite_bg2 {
     transform: rotate(111.88741336170541deg);
-	width: 41px;
-	height: 33px;
+    width: 41px;
+    height: 33px;
     position: relative;
-	left: 1200px;
-	top: 200px;
-	background-image: url(assets/form_2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 1200px;
+    top: 200px;
+    background-image: url(assets/form_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .invite_info {
     width: 387px;
     margin: 0px;
@@ -37,23 +40,28 @@
     vertical-align: middle;
     text-align: left;
 }
+
 .invite_info_header {
     font-family: Eastman;
     font-size: 32px;
     display: inline-block;
 }
+
 .invite_list_header {
     font-family: Minsans_bold;
     font-size: 16px;
 }
+
 .invite_list {
     font-family: Minsans;
     font-size: 16px;
     color: #00BBFC;
 }
+
 .invite_list_text {
-    color: #000227; 
+    color: #000227;
 }
+
 .invite_worker {
     display: inline-block;
     width: 350px;
@@ -63,16 +71,18 @@
     text-align: center;
     vertical-align: middle;
 }
+
 .invite_img_worker {
     width: 313px;
-	height :632px;
+    height: 632px;
     margin-left: 30px;
     position: absolute;
-	background-image: url(assets/worker.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-image: url(assets/worker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .invite_worker_button {
     background-color: #FFF;
     border-radius: 20px;
@@ -84,6 +94,7 @@
     z-index: 2;
     padding: 4px;
 }
+
 .invite_worker_name {
     color: #000227;
     font-family: Eastman;
@@ -91,6 +102,7 @@
     z-index: 2;
     margin: 5px;
 }
+
 .invite_worker_title {
     color: #00BBFC;
     font-family: Minsans;
@@ -98,6 +110,7 @@
     z-index: 2;
     margin-top: 0px;
 }
+
 .invite_form {
     background-color: #FFF;
     width: 380px;
@@ -109,14 +122,16 @@
     padding: 15px;
     overflow: hidden;
     text-align: center;
-    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
     vertical-align: middle;
 }
+
 .invite_form_header {
     color: #000227;
     font-family: Eastman;
     font-size: 20px;
 }
+
 .invite_form_invite {
     color: #0002273C;
     font-family: Minsans;
@@ -124,6 +139,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .invite_form_button {
     color: #000227;
     border-radius: 52px;
@@ -134,6 +150,7 @@
     margin: 15px;
     cursor: pointer;
 }
+
 .invite_form_button_whatsapp_img {
     position: absolute;
     margin-left: 53px;
@@ -141,16 +158,19 @@
     width: 20px;
     height: 20px;
     background-image: url(assets/whatsapp.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .invite_form_button_whatsapp {
     border: 1px solid #67D449;
 }
+
 .invite_form_button_whatsapp:hover {
     color: #FFF;
     background-color: #67D449;
 }
+
 .invite_form_button_telegram_img {
     position: absolute;
     margin-left: 53px;
@@ -158,16 +178,19 @@
     width: 20px;
     height: 20px;
     background-image: url(assets/telegram.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .invite_form_button_telegram {
     border: 1px solid #25A3E0;
 }
+
 .invite_form_button_telegram:hover {
     color: #FFF;
     background-color: #25A3E0;
 }
+
 .invite_form_number_block {
     background-color: #E8ECF2;
     border-radius: 52px;
@@ -175,20 +198,23 @@
     margin: 15px;
     cursor: pointer;
 }
+
 .invite_form_number_block:hover {
     border: 2px solid #00BBFC;
     margin-top: -2px;
     margin-bottom: -2px;
 }
+
 .invite_form_number_block:focus-within {
     border: 2px solid #00BBFC;
     margin-top: -2px;
     margin-bottom: -2px;
 }
+
 .invite_form_number {
     color: #0002273C;
     background-color: #E8ECF2;
-    outline:none;
+    outline: none;
     border-width: 0px;
     font-size: 16px;
     text-align: left;
@@ -197,6 +223,7 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
+
 .invite_form_submit {
     color: #FFF;
     background-color: #00BBFC;
@@ -208,15 +235,18 @@
     margin: 15px;
     cursor: pointer;
 }
+
 .invite_form_submit:hover {
     opacity: 80%;
 }
+
 .invite_form_check {
     color: #000227;
     font-family: Minsans;
     font-size: 11px;
     margin: 15px;
 }
+
 .invite_form_pd {
     color: #00BBFC;
     text-decoration: underline;

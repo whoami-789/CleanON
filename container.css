@@ -2,20 +2,23 @@
     background-color: #f5f7fa;
     text-align: center;
 }
+
 .container_white {
     background-color: #fff;
-    background: linear-gradient(to bottom 30deg, #f5f7fa, transparent), linear-gradient(to top 90deg, #f5f7fa, transparent); 
+    background: linear-gradient(to bottom 30deg, #f5f7fa, transparent), linear-gradient(to top 90deg, #f5f7fa, transparent);
 }
 
 
 .block {
     text-align: left;
     display: inline-block;
-} 
+}
+
 .block_width {
     width: 1170px;
     position: relative;
 }
-.block_width > a {
+
+.block_width>a {
     text-decoration: none;
 }

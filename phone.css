@@ -9,70 +9,78 @@
     padding: 60px;
     padding-top: 20px;
     text-align: middle;
-    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
     position: relative;
     display: inline-block;
 }
-.text_up > p {
+
+.text_up>p {
     margin-top: -35px;
 }
+
 .phone_text {
     color: #000227;
     font-family: Minsans;
     font-size: 16px;
 }
+
 .phone_button_width {
     width: 340px;
     position: relative;
     left: -20px;
     top: 30px;
 }
+
 .phone_list1 {
     width: 33px;
     height: 58px;
-	background-image: url(assets/form_1.png);
-	background-repeat: no-repeat;
+    background-image: url(assets/form_1.png);
+    background-repeat: no-repeat;
     background-size: cover;
     top: 30px;
     right: -80px;
     position: absolute;
     transform: rotate(56.01498599785284deg);
 }
+
 .phone_list2 {
     width: 41px;
     height: 33px;
-	background-image: url(assets/form_2.png);
-	background-repeat: no-repeat;
+    background-image: url(assets/form_2.png);
+    background-repeat: no-repeat;
     background-size: cover;
     bottom: -50px;
     left: -80px;
     position: absolute;
     transform: rotate(-9.630272161090403deg);
 }
+
 .phone_circle1 {
     width: 32px;
     height: 32px;
-	background-image: url(assets/phone_circle1.png);
-	background-repeat: no-repeat;
+    background-image: url(assets/phone_circle1.png);
+    background-repeat: no-repeat;
     bottom: 145px;
     left: 620px;
     position: absolute;
 }
+
 .phone_circle2 {
     width: 438px;
     height: 257px;
-	background-image: url(assets/phone_circle2.png);
-	background-repeat: no-repeat;
+    background-image: url(assets/phone_circle2.png);
+    background-repeat: no-repeat;
     bottom: 0px;
     right: 0px;
     position: absolute;
     border-bottom-right-radius: 20px;
 }
+
 .phone_img {
     width: 328px;
     height: 519px;
-	background-image: url(assets/phone.png);
-	background-repeat: no-repeat;
+    background-image: url(assets/phone.png);
+    background-repeat: no-repeat;
     bottom: 0px;
     left: 700px;
     position: absolute;

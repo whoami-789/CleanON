@@ -2,6 +2,7 @@
     margin-top: 30px;
     padding-bottom: 70px;
 }
+
 .main_service_block {
     text-align: left;
 }
@@ -138,6 +139,7 @@
     background-color: #f5f7fa;
     color: #000227;
 }
+
 .view_more_small:hover {
     background-color: #00bbfc;
     color: #FFF;
@@ -241,6 +243,7 @@
     cursor: pointer;
     color: #000227;
 }
+
 .view_more:hover {
     background-color: #00bbfc;
     color: #FFF;

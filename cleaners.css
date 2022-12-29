@@ -113,27 +113,34 @@
     }
 }
 
-.w1{
+.w1 {
     background-image: url(assets/worker1.png);
 }
-.w2{
+
+.w2 {
     background-image: url(assets/worker2.png);
 }
-.w3{
+
+.w3 {
     background-image: url(assets/worker3.png);
 }
-.w4{
+
+.w4 {
     background-image: url(assets/worker4.png);
 }
-.w5{
+
+.w5 {
     background-image: url(assets/worker5.png);
 }
-.w6{
+
+.w6 {
     background-image: url(assets/worker6.png);
 }
-.w7{
+
+.w7 {
     background-image: url(assets/worker7.png);
 }
-.w8{
+
+.w8 {
     background-image: url(assets/worker8.png);
 }

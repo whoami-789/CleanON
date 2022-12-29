@@ -9,9 +9,10 @@
     display: inline-block;
     text-align: left;
 }
+
 .sales_content {
     width: 367px;
-	height: 265px;
+    height: 265px;
     display: inline-block;
     vertical-align: top;
     border-radius: 20px;
@@ -24,194 +25,218 @@
     position: relative;
     overflow: hidden;
 }
+
 .img_1 {
     transform: rotate(30.153572350257342deg);
-	width: 160px;
-	height: 133.69338989257812px;
-	position: absolute;
-	left: 170px;
-	top: 180px;
-	background-image: url(assets/sales_1.png);
-	background-repeat: no-repeat;
+    width: 160px;
+    height: 133.69338989257812px;
+    position: absolute;
+    left: 170px;
+    top: 180px;
+    background-image: url(assets/sales_1.png);
+    background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
 }
+
 .img_1_1 {
     transform: rotate(-10.424256001729994deg);
-	width: 49px;
-	height: 40px;
-	position: absolute;
-	left: 300px;
-	top: 120px;
-	background-image: url(assets/sales_1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    width: 49px;
+    height: 40px;
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    background-image: url(assets/sales_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .sales_content1 {
     background: radial-gradient(ellipse farthest-corner at 170% 170%, #FFF, #FF6624 70%);
 }
+
 .img_2 {
     width: 174px;
-	height: 187px;
+    height: 187px;
     position: absolute;
-	left: 230px;
-	top: 130px;
-	background-image: url(assets/sales_2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 230px;
+    top: 130px;
+    background-image: url(assets/sales_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .sales_content2 {
     background: radial-gradient(ellipse farthest-corner at 170% 170%, #FFF, #61B56A 70%);
 }
+
 .img_3 {
     transform: rotate(17.19964507360169deg);
-	width: 110px;
-	height: 119px;
+    width: 110px;
+    height: 119px;
     position: absolute;
-	left: 265px;
-	top: 190px;
-	background-image: url(assets/sales_3.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 265px;
+    top: 190px;
+    background-image: url(assets/sales_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .img_3_3 {
     transform: rotate(-34.56039644502203deg);
-	width: 35px;
-	height: 39px;
+    width: 35px;
+    height: 39px;
     position: absolute;
-	left: 315px;
-	top: 110px;
-	background-image: url(assets/sales_3.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 315px;
+    top: 110px;
+    background-image: url(assets/sales_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .sales_content3 {
     background: radial-gradient(ellipse farthest-corner at 170% 170%, #FFF, #DAA337 70%);
 }
+
 .img_4 {
-    width:219px;
-	height:201px;
+    width: 219px;
+    height: 201px;
     position: absolute;
-	left: 210px;
-	top: 160px;
-	background-image: url(assets/sales_4.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 210px;
+    top: 160px;
+    background-image: url(assets/sales_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .sales_content4 {
     background: radial-gradient(ellipse farthest-corner at 170% 170%, #FFF, #24A3FF 70%);
 }
+
 .img_5_1 {
-    width:76px;
-	height:101px;
+    width: 76px;
+    height: 101px;
     position: absolute;
-	left: -10px;
-	top: 175px;
-	background-image: url(assets/sales_5_1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: -10px;
+    top: 175px;
+    background-image: url(assets/sales_5_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .img_5_2 {
     transform: scale(-1, 1);
-	width:121px;
-	height:228px;
+    width: 121px;
+    height: 228px;
     position: absolute;
-	left: 210px;
-	top: 135px;
-	background-image: url(assets/sales_5_2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 210px;
+    top: 135px;
+    background-image: url(assets/sales_5_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .img_5_3 {
-    width:43px;
-	height:49px;
+    width: 43px;
+    height: 49px;
     position: absolute;
-	left: 300px;
-	top: 85px;
-	background-image: url(assets/sales_5_3.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 300px;
+    top: 85px;
+    background-image: url(assets/sales_5_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .sales_content5 {
     background: radial-gradient(ellipse farthest-corner at 170% 170%, #FFF, #B07062 70%);
 }
+
 .img_6 {
-    width:66px;
-	height:49px;
+    width: 66px;
+    height: 49px;
     position: absolute;
-	left: 280px;
-	top: 120px;
-	background-image: url(assets/sales_6.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 280px;
+    top: 120px;
+    background-image: url(assets/sales_6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .img_6_6 {
     transform: rotate(-56.3068873005753deg);
-	width:171px;
-	height:128px;
+    width: 171px;
+    height: 128px;
     position: absolute;
-	left: 145px;
-	top: 205px;
-	background-image: url(assets/sales_6.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 145px;
+    top: 205px;
+    background-image: url(assets/sales_6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .sales_content6 {
     background: radial-gradient(ellipse farthest-corner at 170% 170%, #FFF, #8391BF 70%);
 }
+
 .img_7 {
-    width:494px;
-	height:331px;
+    width: 494px;
+    height: 331px;
     position: absolute;
-	left: 0px;
-	top: 0px;
-	background-image: url(assets/sales_7.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 0px;
+    top: 0px;
+    background-image: url(assets/sales_7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .sales_content7 {
     background: radial-gradient(ellipse farthest-corner at 170% 170%, #FFF, #006AE7 70%);
 }
+
 .img_8 {
     transform: scale(-1, 1);
-    width:326px;
-	height:221px;
+    width: 326px;
+    height: 221px;
     position: absolute;
-	left: 240px;
-	top: 110px;
-	background-image: url(assets/sales_8.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 240px;
+    top: 110px;
+    background-image: url(assets/sales_8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .sales_content8 {
     background: radial-gradient(ellipse farthest-corner at 170% 170%, #FFF, #6294B0 70%);
 }
+
 .img_9 {
-    width:354px;
-	height:235px;
+    width: 354px;
+    height: 235px;
     position: absolute;
-	left: 180px;
-	top: 50px;
-	background-image: url(assets/sales_9.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+    left: 180px;
+    top: 50px;
+    background-image: url(assets/sales_9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 }
+
 .sales_content9 {
     background: radial-gradient(ellipse farthest-corner at 170% 170%, #FFF, #4A80C0 70%);
 }
+
 .sales_block_header {
     color: #FFF;
     font-family: Eastman;
@@ -220,6 +245,7 @@
     position: relative;
     z-index: 2;
 }
+
 .sales_block {
     margin-left: 25px;
     margin-top: 10px;
@@ -229,6 +255,7 @@
     position: relative;
     z-index: 2;
 }
+
 .sales_block_button {
     background-color: #FFF;
     color: #000227;
@@ -244,9 +271,11 @@
     z-index: 2;
     cursor: pointer;
 }
+
 .sales_block_button:hover {
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: rgba(255, 255, 255, 0.8);
 }
+
 .sales_block_header_margin {
     margin-bottom: 0px;
     margin-top: 0px;

@@ -1,28 +1,33 @@
 @font-face {
-     font-family: "Minsans";
-     font-style: medium;
-     src: url("fonts/MINSANS-REGULAR.otf")
+    font-family: "Minsans";
+    font-style: medium;
+    src: url("fonts/MINSANS-REGULAR.otf")
 }
+
 @font-face {
     font-family: "Minsans_bold";
     font-style: medium;
     src: url("fonts/MINSANS-MEDIUM.otf")
 }
+
 @font-face {
     font-family: "Eastman";
     font-style: medium;
     src: url("fonts/EASTMAN-MEDIUM.ttf")
 }
+
 @font-face {
     font-family: "Eastman_bold";
     font-style: medium;
     src: url("fonts/EASTMAN-BOLD.ttf")
 }
+
 @font-face {
     font-family: "TTNormsPro";
     font-style: medium;
     src: url("fonts/TTNormsPro-Medium.ttf")
 }
+
 @font-face {
     font-family: "TTNormsPro_bold";
     font-style: medium;

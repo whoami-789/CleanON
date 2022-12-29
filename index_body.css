@@ -1,15 +1,15 @@
 body {
-    width: 100%;
-    margin: 0px;
-    align-items: center;
-    position: absolute;
+  width: 100%;
+  margin: 0px;
+  align-items: center;
+  position: absolute;
 }
 
 .text_header {
-    color: #000227;
-    font-family: Eastman;
-    font-size: 32px;
-    margin-top: 70px;
+  color: #000227;
+  font-family: Eastman;
+  font-size: 32px;
+  margin-top: 70px;
 }
 
 .text_subheader {
@@ -19,16 +19,16 @@ body {
 }
 
 .inline {
-    display: inline-block;
+  display: inline-block;
 }
 
 .middle {
   vertical-align: middle;
 }
 
-  *,
-    *::before,
-    *::after {
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-    }
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

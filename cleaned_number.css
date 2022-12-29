@@ -28,7 +28,7 @@
     margin-top: 50px;
     margin-left: 20px;
     vertical-align: top;
-    box-shadow: 0px 0px 30px  rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
 
 .example_info {
@@ -162,12 +162,12 @@
     font-family: Eastman;
     color: #fff;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgba(000,187,252,0.3);
+    box-shadow: 0px 0px 20px rgba(000, 187, 252, 0.3);
 }
 
 button.ex_input_button:hover {
     opacity: 80%;
-    box-shadow: 0px 0px 0px rgba(000,187,252,0.3);
+    box-shadow: 0px 0px 0px rgba(000, 187, 252, 0.3);
 }
 
 .ex_case_button {
@@ -191,14 +191,14 @@ button.ex_case_button:hover {
     opacity: 80%;
 }
 
-.cleaned_number_head{
+.cleaned_number_head {
     font-size: 32px;
     font-weight: 400;
     font-family: Eastman;
     color: #000227;
 }
 
-.cleaning_example_header{
+.cleaning_example_header {
     margin-top: 16px;
     font-size: 16px;
     font-weight: 400;
