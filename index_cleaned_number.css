@@ -189,16 +189,3 @@ button.ex_case_button:active {
     background: rgb(201, 187, 187);
     transform: translate(0em, 0.1em);
 }
-
-/* .slider_works_width > div > .ex-slider__btn_prev {
-    width: 30px;
-    height: 30px;
-    left: 20px;
-    background-image: url(assets/white_arrow_left.png);
-  }
-  .slider_works_width > div > .-slider__btn_next {
-    width: 30px;
-    height: 30px;
-    right: 20px;
-    background-image: url(assets/white_arrow_right.png);
-  } */

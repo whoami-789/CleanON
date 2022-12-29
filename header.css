@@ -327,6 +327,12 @@
 		display: flex;
 	}
 
+	.header_inline {
+		display: inline-block;
+		margin-left: 73px;
+		margin-right: 0px;
+	}
+
 	.header_logo {
 		width: 39px;
 		height: 37px;
@@ -339,7 +345,7 @@
 	}
 
 	.header_logo_text {
-		margin-left: 50px;
+		margin-left: 0px;
 		margin-top: -60px;
 	}
 
@@ -355,6 +361,108 @@
 		font-family: Minsans;
 		font-size: 11.333333015441895px;
 		margin-top: 0px;
+	}
+
+	.header_address {
+		color: #000227;
+		font-family: Minsans_bold;
+		font-size: 14;
+		display: flex;
+		width: 300px;
+		margin-top: -10;
+		margin-left: 25px;
+	}
+
+	.header_timework {
+		color: #000227C3;
+		font-family: Minsans;
+		font-size: 14;
+		margin-top: 2px;
+		margin-left: 24px;
+	}
+
+	.header_watsapp {
+		width: 30px;
+		height: 30px;
+		background-image: url(assets/whatsapp.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-left: 45px;
+	}
+
+	.header_watsapp:hover {
+		opacity: 80%;
+	}
+
+	.header_telegram {
+		width: 30px;
+		height: 30px;
+		background-image: url(assets/telegram.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-left: 15px;
+	}
+
+	.header_telegram:hover {
+		opacity: 80%;
+	}
+
+	.header_phone {
+		color: #000227;
+		font-family: Minsans_bold;
+		font-size: 20px;
+		margin-bottom: -20px;
+		margin-left: 30px;
+	}
+
+	.header_mail {
+		color: #000227C3;
+		font-family: Minsans;
+		font-size: 14px;
+		margin-left: 95px;
+	}
+
+	.header_mail:hover {
+		color: #000227;
+	}
+
+	.header_invite {
+		background-color: #FFF;
+		display: inline-block;
+		position: relative;
+		border-radius: 52px;
+		margin-left: 100px;
+		margin-top: 15px;
+		overflow: hidden;
+		border: 1px solid #c0d8eb;
+		border-style: solid;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	.header_invite:hover {
+		border: 1px solid #c0d8eb;
+		border-radius: 50px;
+		box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+		margin-left: 100px;
+	}
+
+	.header_invite_text {
+		color: #000227;
+		font-family: Minsans_bold;
+		font-size: 14;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	.header_address_img {
+		width: 12px;
+		height: 15px;
+		background-image: url(assets/header_address.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: inline-block;
+		margin-left: -25px;
 	}
 
 	.dropbtn {
@@ -404,7 +512,6 @@
 	}
 
 	.dropbtn:end {
-		/* opacity: 80%; */
 		display: none;
 	}
 
@@ -434,10 +541,6 @@
 		font-family: Minsans;
 		font-size: 14px;
 	}
-
-	/* .dropdown_content>a:hover {
-		opacity: 80%;
-	} */
 
 	.dropdown:hover .dropdown_content {
 		margin-left: 100;

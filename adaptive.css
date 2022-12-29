@@ -267,7 +267,7 @@
         padding: 0;
         list-style: none;
         text-align: left;
-
+        margin-top: 15px;
     }
 
     .nav>ul>li {
@@ -416,4 +416,16 @@
     }
 
 
+    .slider_height>div>* {
+        height: 193px;
+        width: 330px;
+    }
+
+    .itc-slider__item {
+        max-width: 100%;
+      
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+      }
 }
