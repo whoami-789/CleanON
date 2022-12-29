@@ -2,12 +2,6 @@
 
 @media only screen and (min-width: 1001px) {
 
-    body {
-        background-image: url(assets/index_banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     .ib_header_worker {
         width: 632px;
         height: 540px;
@@ -159,16 +153,10 @@
         background-size: cover;
         margin-top: 35px;
         margin-right: 15px;
-    }
+    }   
 }
 
 @media only screen and (max-width: 1000px) {
-
-    body {
-        background-image: url(assets/index_banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 
     .ib_banner_block {
         display: inline-block;
