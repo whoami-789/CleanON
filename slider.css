@@ -154,6 +154,7 @@
 @media only screen and (max-width: 1000px) {
   .block_slider {
     width: 375px;
+    margin-left: 15px;
   }
 
   .itc-slider {
