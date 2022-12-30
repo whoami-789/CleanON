@@ -169,10 +169,12 @@
         font-family: Eastman;
         color: #fff;
         cursor: pointer;
+        box-shadow: 0px 0px 20px rgba(000, 187, 252, 0.3);
     }
-
+    
     button.ex_input_button:hover {
         opacity: 80%;
+        box-shadow: 0px 0px 0px rgba(000, 187, 252, 0.3);
     }
 
     .ex_case_button {
@@ -210,6 +212,11 @@
         font-family: Minsans;
         color: #00022799;
     }
+.cleaned_number_block {
+    width: 1170px;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 70px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -393,17 +400,19 @@
         padding-top: 35px;
         padding-bottom: 35px;
         background-color: #01b9fc;
-        margin-left: -30px;
+        margin-left: -60px;
         margin-top: -1px;
         text-align: center;
         font-size: 14px;
         font-family: Eastman;
         color: #fff;
         cursor: pointer;
+        box-shadow: 0px 0px 20px rgba(000, 187, 252, 0.3);
     }
-
+    
     button.ex_input_button:hover {
         opacity: 80%;
+        box-shadow: 0px 0px 0px rgba(000, 187, 252, 0.3);
     }
 
     .ex_case_button {
@@ -445,6 +454,4 @@
     .example_info{
         margin-top: 1px;
     }
-
-    
 }

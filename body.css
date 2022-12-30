@@ -1,17 +1,16 @@
 body {
-    width: 100%;
-    background-image: url(assets/background.png);
-    background-repeat: no-repeat;
-	  background-size:cover;
-    margin: 0px;
-    position: absolute;
-    text-align: center;
-    background-color: #f5f7fa;
+  width: 100%;
+  background-image: url(assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  position: absolute;
+  background-color: #f5f7fa;
 }
 
-  *,
-    *::before,
-    *::after {
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-    }
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

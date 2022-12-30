@@ -199,8 +199,21 @@
         border-radius: 52px;
         padding: 1px;
         margin: 15px;
+        cursor: pointer;
     }
-
+    
+    .invite_form_number_block:hover {
+        border: 2px solid #00BBFC;
+        margin-top: -2px;
+        margin-bottom: -2px;
+    }
+    
+    .invite_form_number_block:focus-within {
+        border: 2px solid #00BBFC;
+        margin-top: -2px;
+        margin-bottom: -2px;
+    }
+    
     .invite_form_number {
         color: #0002273C;
         background-color: #E8ECF2;
@@ -211,6 +224,7 @@
         font-family: Minsans;
         margin-top: 12px;
         margin-bottom: 10px;
+        cursor: pointer;
     }
 
     .invite_form_submit {
@@ -300,6 +314,7 @@
         opacity: 0;
         transition: opacity 0.25s ease;
     }
+
 }
 
 @media only screen and (max-width: 1000px) {

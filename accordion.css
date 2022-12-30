@@ -18,7 +18,7 @@
         position: relative;
         display: inline-block;
     }
-
+    
     .accordion_button {
         width: 24px;
         height: 24px;
@@ -30,7 +30,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
+    
     .accordion {
         background-color: #FFF;
         color: #000227;
@@ -45,18 +45,18 @@
         border-radius: 20px;
         display: inline-block;
     }
-
+    
     .active,
     .accordion:hover,
     .accordion_block:hover {
         background-color: #E8ECF2;
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
     }
-
+    
     .active>.accordion_button {
         background-image: url(assets/minus.png);
     }
-
+    
     .panel {
         padding: 0 18px;
         background-color: #E8ECF2;
@@ -65,13 +65,13 @@
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
-
+    
     .panel>p {
         color: #010328;
         font-family: Minsans;
         font-size: 16px;
     }
-
+    
     .accordion_form {
         width: 412;
         vertical-align: top;

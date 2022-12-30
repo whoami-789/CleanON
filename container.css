@@ -1,7 +1,6 @@
 .container {
     background-color: #f5f7fa;
     text-align: center;
-    z-index: 0px;
 }
 
 .container_white {
@@ -17,6 +16,7 @@
 
 .block_width {
     width: 1170px;
+    position: relative;
 }
 
 .block_width>a {
